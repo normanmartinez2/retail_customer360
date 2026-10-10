@@ -14,7 +14,7 @@ from pyspark.sql import functions as F
 from pyspark.sql.types import StructType, StructField, StringType
 
 REPO = 'normanmartinez2/retail_customer360'
-REF = 'main'  # Tras publicar, usa el SHA del commit para reproducibilidad.
+REF = 'feab369722cbe23060b989c6e4a767abdf82cb6e'  # Versión publicada y reproducible del dataset.
 BASE_URL = f'https://raw.githubusercontent.com/{REPO}/{REF}/data/crm'
 CSV_URL = f'{BASE_URL}/customers_lab02_v1.csv'
 MANIFEST_URL = f'{BASE_URL}/customers_lab02_v1.manifest.json'

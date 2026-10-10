@@ -28,32 +28,19 @@ La URL raw es el origen real de la descarga. Spark lee la copia del volumen: no 
 
 ## 2. Estado de publicación y preparación de GitHub
 
-**El intento de publicar mediante el conector falló con HTTP 403, `Resource not accessible by integration`. No hay commit publicado por esta tarea.** El repositorio estaba vacío cuando se consultó. Los enlaces raw siguientes están previstos y solo funcionarán después de subir los archivos.
+Los archivos se publicaron en la rama `main` mediante Git local. El commit del dataset es `feab369722cbe23060b989c6e4a767abdf82cb6e`.
 
 Repositorio fuente para este y los futuros laboratorios: https://github.com/normanmartinez2/retail_customer360
 
-Sube a la rama `main` el contenido de esta carpeta respetando esta estructura (no añadas el prefijo `lab02/`):
+CSV fijado a la versión publicada:
 
-```text
-data/crm/customers_lab02_v1.csv
-data/crm/customers_lab02_v1.manifest.json
-tools/generate_customers.py
-labs/lab02_customer_ingestion.py
-LAB02.md
-README.md
-```
+https://raw.githubusercontent.com/normanmartinez2/retail_customer360/feab369722cbe23060b989c6e4a767abdf82cb6e/data/crm/customers_lab02_v1.csv
 
-Puedes usar GitHub → Add file → Upload files, o una copia local de tu repositorio. Si aún está vacío, crea primero un README para inicializar `main` y después sube las carpetas. Una alternativa es habilitar permiso de escritura de Contents para la integración GitHub y volver a solicitar la publicación.
+Contrato fijado a la versión publicada:
 
-URL raw prevista del CSV:
+https://raw.githubusercontent.com/normanmartinez2/retail_customer360/feab369722cbe23060b989c6e4a767abdf82cb6e/data/crm/customers_lab02_v1.manifest.json
 
-https://raw.githubusercontent.com/normanmartinez2/retail_customer360/main/data/crm/customers_lab02_v1.csv
-
-URL raw prevista del contrato:
-
-https://raw.githubusercontent.com/normanmartinez2/retail_customer360/main/data/crm/customers_lab02_v1.manifest.json
-
-Después de publicar, abre ambas URL: el CSV debe mostrar una cabecera de 15 columnas y el JSON debe indicar `rows: 1220`. Copia el SHA del commit desde GitHub y cambia `REF = 'main'` por ese SHA en el notebook. Así todos ejecutarán exactamente la misma versión. El checksum detecta modificaciones accidentales; no demuestra autenticidad frente a alguien que pueda modificar tanto CSV como manifest.
+El notebook usa este commit para que todos ejecuten la misma versión. El checksum detecta modificaciones accidentales; no demuestra autenticidad frente a alguien que pueda modificar tanto CSV como manifest.
 
 ## 3. Entender los datos
 
@@ -181,4 +168,4 @@ Próximo paso: Silver, normalización, reglas de calidad, cuarentena y selecció
 
 ## Estado de verificación
 
-El dataset y su contrato se han validado localmente. El notebook contiene comprobaciones ejecutables para Databricks. No se ha ejecutado contra tu workspace y la publicación en GitHub quedó bloqueada por el 403 de la integración; por tanto no se presenta una URL raw como verificada remotamente.
+El dataset y su contrato se han validado localmente y publicado en GitHub. El notebook contiene comprobaciones ejecutables para Databricks. No se ha ejecutado contra tu workspace.
