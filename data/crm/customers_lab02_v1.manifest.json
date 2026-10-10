@@ -1,0 +1,38 @@
+{
+  "dataset": "customers_lab02_v1",
+  "synthetic": true,
+  "rows": 1220,
+  "columns": [
+    "customer_id",
+    "first_name",
+    "last_name",
+    "email",
+    "phone",
+    "date_of_birth",
+    "country",
+    "city",
+    "postal_code",
+    "customer_segment",
+    "marketing_consent",
+    "created_at",
+    "updated_at",
+    "source_system",
+    "notes"
+  ],
+  "encoding": "UTF-8",
+  "delimiter": ",",
+  "sha256": "3a9847413e1ee3338d2df483be99331afd627db1096ea41e2438e81de8c672ab",
+  "expected": {
+    "missing_customer_id": 10,
+    "missing_email": 15,
+    "invalid_nonempty_email": 12,
+    "duplicate_key_groups": 20,
+    "excess_rows_by_nonempty_key": 20,
+    "exact_duplicate_excess": 10,
+    "invalid_birth_dates": 6,
+    "future_birth_dates": 4,
+    "updated_before_created": 6,
+    "invalid_updated_at": 4,
+    "multiline_notes": 3
+  }
+}
