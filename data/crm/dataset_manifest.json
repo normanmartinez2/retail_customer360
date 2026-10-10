@@ -1,0 +1,617 @@
+{
+  "project": "Retail Customer 360 — Databricks Solutions Architect interview lab",
+  "version": "2026-10-10-v1",
+  "synthetic_data": true,
+  "random_seed": 20261010,
+  "source_crm": {
+    "url": "https://raw.githubusercontent.com/normanmartinez2/retail_customer360/refs/heads/main/data/crm/customers_lab02_v1.csv",
+    "github_blob_sha": "78647a293cbe51aaa8010ed7da5d6d6862a0c7cd",
+    "rows": 1220,
+    "distinct_nonempty_customer_ids": 1190,
+    "eligible_customer_ids_after_lab03_rules": 1153,
+    "note": "CRM source not copied or modified. Its IDs C000011-C001200 drive downstream relationships."
+  },
+  "files": {
+    "data/erp/products_lab04_v1.csv": {
+      "rows": 500,
+      "columns": [
+        "product_id",
+        "sku",
+        "product_name",
+        "category",
+        "subcategory",
+        "brand",
+        "unit_price_eur",
+        "cost_price_eur",
+        "supplier_id",
+        "active_flag",
+        "created_at",
+        "updated_at",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 88408,
+      "sha256": "ddd4d8be71c1d009ea59a01ed57191b596fcd813fb152277628a5d542da5192d"
+    },
+    "data/ecommerce/orders_lab04_v1.csv": {
+      "rows": 15000,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "order_timestamp",
+        "order_status",
+        "sales_channel",
+        "store_id",
+        "country",
+        "currency",
+        "subtotal_eur",
+        "discount_eur",
+        "shipping_eur",
+        "total_amount_eur",
+        "updated_at",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 2002175,
+      "sha256": "f3a87d3e487dc956959240ac8ef383508bd6d28d069f2a087ef6325ce6658b2b"
+    },
+    "data/ecommerce/order_items_lab04_v1.csv": {
+      "rows": 40000,
+      "columns": [
+        "order_item_id",
+        "order_id",
+        "product_id",
+        "quantity",
+        "unit_price_eur",
+        "gross_amount_eur",
+        "line_discount_eur",
+        "line_total_eur",
+        "currency",
+        "created_at",
+        "updated_at",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 4814878,
+      "sha256": "60b680dad2b9f9711acad7928f83bb5d191ecdbba6eb2a118178bfce6fcc41a3"
+    },
+    "data/payments/payments_lab04_v1.csv": {
+      "rows": 15500,
+      "columns": [
+        "payment_id",
+        "order_id",
+        "customer_id",
+        "payment_timestamp",
+        "payment_type",
+        "payment_status",
+        "payment_method",
+        "amount_eur",
+        "currency",
+        "gateway_reference",
+        "updated_at",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 2251681,
+      "sha256": "df38b4e5587cdfc22206ed1841109744fbf15c4511bd4df24addaf84070b32a5"
+    },
+    "data/marketing/customer_interactions_lab04_v1.csv": {
+      "rows": 8000,
+      "columns": [
+        "interaction_id",
+        "customer_id",
+        "interaction_timestamp",
+        "ingestion_timestamp",
+        "channel",
+        "event_type",
+        "campaign_id",
+        "interaction_outcome",
+        "device_type",
+        "country",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 1002567,
+      "sha256": "fde689139efd0d2a7b67b871482f0519a78fec523ae098e35cb1f2be5b40a8d0"
+    },
+    "data/cdc/customers_cdc_lab06_v1.csv": {
+      "rows": 180,
+      "columns": [
+        "event_id",
+        "operation",
+        "customer_id",
+        "event_timestamp",
+        "source_sequence",
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "date_of_birth",
+        "country",
+        "city",
+        "customer_segment",
+        "marketing_consent",
+        "created_at",
+        "updated_at",
+        "source_system",
+        "notes",
+        "ingestion_timestamp"
+      ],
+      "bytes": 30769,
+      "sha256": "13c6b4155d0cf6e3d56fd5b86071550c3bf3d6561686513ce11c4355d2555d30"
+    },
+    "data/cdc/orders_cdc_lab06_v1.csv": {
+      "rows": 300,
+      "columns": [
+        "event_id",
+        "operation",
+        "order_id",
+        "event_timestamp",
+        "source_sequence",
+        "new_order_status",
+        "new_total_amount_eur",
+        "ingestion_timestamp",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 36756,
+      "sha256": "70a280eb8793fc1918d832fbe349adc763ac41fdf295a4181dbd64af7a4c7d9e"
+    },
+    "data/cdc/payments_cdc_lab06_v1.csv": {
+      "rows": 200,
+      "columns": [
+        "event_id",
+        "operation",
+        "payment_id",
+        "order_id",
+        "event_timestamp",
+        "source_sequence",
+        "new_payment_status",
+        "new_amount_eur",
+        "ingestion_timestamp",
+        "source_system",
+        "notes"
+      ],
+      "bytes": 27961,
+      "sha256": "fb150a063540766a528787decb5a345c4252f207e2cf7d08d1a24ad2b5c1c02c"
+    }
+  },
+  "deliberate_quality_cases": {
+    "cdc_customers_late_events": {
+      "count": 4,
+      "sample_ids": [
+        "C000424",
+        "C000855",
+        "C000066",
+        "C000592"
+      ]
+    },
+    "cdc_customers_replayed_event_ids": {
+      "count": 6,
+      "sample_ids": [
+        "CDC-C-00001",
+        "CDC-C-00002",
+        "CDC-C-00003",
+        "CDC-C-00004",
+        "CDC-C-00005"
+      ]
+    },
+    "cdc_orders_late_events": {
+      "count": 8,
+      "sample_ids": [
+        "O014363",
+        "O002640",
+        "O014267",
+        "O005775",
+        "O012283"
+      ]
+    },
+    "cdc_orders_replayed_event_ids": {
+      "count": 12,
+      "sample_ids": [
+        "CDC-O-00001",
+        "CDC-O-00002",
+        "CDC-O-00003",
+        "CDC-O-00004",
+        "CDC-O-00005"
+      ]
+    },
+    "cdc_payments_replayed_event_ids": {
+      "count": 8,
+      "sample_ids": [
+        "CDC-P-00001",
+        "CDC-P-00002",
+        "CDC-P-00003",
+        "CDC-P-00004",
+        "CDC-P-00005"
+      ]
+    },
+    "interactions_invalid_timestamp": {
+      "count": 15,
+      "sample_ids": [
+        "INT0000206",
+        "INT0000207",
+        "INT0000208",
+        "INT0000209",
+        "INT0000210"
+      ]
+    },
+    "interactions_late_arrival": {
+      "count": 135,
+      "sample_ids": [
+        "INT0000071",
+        "INT0000072",
+        "INT0000073",
+        "INT0000074",
+        "INT0000075"
+      ]
+    },
+    "interactions_missing_customer": {
+      "count": 15,
+      "sample_ids": [
+        "INT0000236",
+        "INT0000237",
+        "INT0000238",
+        "INT0000239",
+        "INT0000240"
+      ]
+    },
+    "interactions_quarantined_customer": {
+      "count": 35,
+      "sample_ids": [
+        "INT0000036",
+        "INT0000037",
+        "INT0000038",
+        "INT0000039",
+        "INT0000040"
+      ]
+    },
+    "interactions_unknown_customer": {
+      "count": 35,
+      "sample_ids": [
+        "INT0000001",
+        "INT0000002",
+        "INT0000003",
+        "INT0000004",
+        "INT0000005"
+      ]
+    },
+    "interactions_unknown_type": {
+      "count": 15,
+      "sample_ids": [
+        "INT0000221",
+        "INT0000222",
+        "INT0000223",
+        "INT0000224",
+        "INT0000225"
+      ]
+    },
+    "items_duplicate_item_id": {
+      "count": 10,
+      "sample_ids": [
+        "LI0000112",
+        "LI0000113",
+        "LI0000114",
+        "LI0000115",
+        "LI0000116"
+      ]
+    },
+    "items_incorrect_line_total": {
+      "count": 20,
+      "sample_ids": [
+        "LI0000112",
+        "LI0000113",
+        "LI0000114",
+        "LI0000115",
+        "LI0000116"
+      ]
+    },
+    "items_invalid_unit_price": {
+      "count": 15,
+      "sample_ids": [
+        "LI0000097",
+        "LI0000098",
+        "LI0000099",
+        "LI0000100",
+        "LI0000101"
+      ]
+    },
+    "items_missing_product": {
+      "count": 24,
+      "sample_ids": [
+        "LI0000033",
+        "LI0000034",
+        "LI0000035",
+        "LI0000036",
+        "LI0000037"
+      ]
+    },
+    "items_nonpositive_quantity": {
+      "count": 20,
+      "sample_ids": [
+        "LI0000077",
+        "LI0000078",
+        "LI0000079",
+        "LI0000080",
+        "LI0000081"
+      ]
+    },
+    "items_unexpected_currency": {
+      "count": 15,
+      "sample_ids": [
+        "LI0000142",
+        "LI0000143",
+        "LI0000144",
+        "LI0000145",
+        "LI0000146"
+      ]
+    },
+    "items_unknown_order": {
+      "count": 20,
+      "sample_ids": [
+        "LI0000057",
+        "LI0000058",
+        "LI0000059",
+        "LI0000060",
+        "LI0000061"
+      ]
+    },
+    "items_unknown_product": {
+      "count": 32,
+      "sample_ids": [
+        "LI0000001",
+        "LI0000002",
+        "LI0000003",
+        "LI0000004",
+        "LI0000005"
+      ]
+    },
+    "orders_country_mismatch": {
+      "count": 25,
+      "sample_ids": [
+        "O000236",
+        "O000237",
+        "O000238",
+        "O000239",
+        "O000240"
+      ]
+    },
+    "orders_duplicate_key": {
+      "count": 20,
+      "sample_ids": [
+        "O000502",
+        "O000503",
+        "O000504",
+        "O000505",
+        "O000506"
+      ]
+    },
+    "orders_invalid_status": {
+      "count": 12,
+      "sample_ids": [
+        "O000261",
+        "O000262",
+        "O000263",
+        "O000264",
+        "O000265"
+      ]
+    },
+    "orders_invalid_timestamp": {
+      "count": 20,
+      "sample_ids": [
+        "O000201",
+        "O000202",
+        "O000203",
+        "O000204",
+        "O000205"
+      ]
+    },
+    "orders_missing_customer": {
+      "count": 40,
+      "sample_ids": [
+        "O000141",
+        "O000142",
+        "O000143",
+        "O000144",
+        "O000145"
+      ]
+    },
+    "orders_negative_total": {
+      "count": 15,
+      "sample_ids": [
+        "O000221",
+        "O000222",
+        "O000223",
+        "O000224",
+        "O000225"
+      ]
+    },
+    "orders_quarantined_customer": {
+      "count": 70,
+      "sample_ids": [
+        "O000071",
+        "O000072",
+        "O000073",
+        "O000074",
+        "O000075"
+      ]
+    },
+    "orders_unexpected_currency": {
+      "count": 10,
+      "sample_ids": [
+        "O000273",
+        "O000274",
+        "O000275",
+        "O000276",
+        "O000277"
+      ]
+    },
+    "orders_unknown_customer": {
+      "count": 70,
+      "sample_ids": [
+        "O000001",
+        "O000002",
+        "O000003",
+        "O000004",
+        "O000005"
+      ]
+    },
+    "payments_duplicate_id": {
+      "count": 12,
+      "sample_ids": [
+        "PAY0000002",
+        "PAY0000003",
+        "PAY0000004",
+        "PAY0000005",
+        "PAY0000006"
+      ]
+    },
+    "payments_invalid_status": {
+      "count": 10,
+      "sample_ids": [
+        "PAY0000046",
+        "PAY0000047",
+        "PAY0000048",
+        "PAY0000049",
+        "PAY0000050"
+      ]
+    },
+    "payments_invalid_timestamp": {
+      "count": 2,
+      "sample_ids": [
+        "PAY0000029",
+        "PAY0000030"
+      ]
+    },
+    "payments_negative_charge": {
+      "count": 15,
+      "sample_ids": [
+        "PAY0000031",
+        "PAY0000032",
+        "PAY0000033",
+        "PAY0000034",
+        "PAY0000035"
+      ]
+    },
+    "payments_unexpected_currency": {
+      "count": 8,
+      "sample_ids": [
+        "PAY0000013",
+        "PAY0000014",
+        "PAY0000015",
+        "PAY0000016",
+        "PAY0000017"
+      ]
+    },
+    "payments_unknown_order": {
+      "count": 8,
+      "sample_ids": [
+        "PAY0000021",
+        "PAY0000022",
+        "PAY0000023",
+        "PAY0000024",
+        "PAY0000025"
+      ]
+    },
+    "products_duplicate_key": {
+      "count": 10,
+      "sample_ids": [
+        "P00001",
+        "P00002",
+        "P00003",
+        "P00004",
+        "P00005"
+      ]
+    },
+    "products_invalid_price": {
+      "count": 5,
+      "sample_ids": [
+        "P00032",
+        "P00033",
+        "P00034",
+        "P00035",
+        "P00036"
+      ]
+    },
+    "products_missing_category": {
+      "count": 6,
+      "sample_ids": [
+        "P00021",
+        "P00022",
+        "P00023",
+        "P00024",
+        "P00025"
+      ]
+    },
+    "products_missing_sku": {
+      "count": 5,
+      "sample_ids": [
+        "P00037",
+        "P00038",
+        "P00039",
+        "P00040",
+        "P00041"
+      ]
+    },
+    "products_negative_price": {
+      "count": 5,
+      "sample_ids": [
+        "P00027",
+        "P00028",
+        "P00029",
+        "P00030",
+        "P00031"
+      ]
+    }
+  },
+  "business_conventions": {
+    "currency": "EUR; other values are intentional data-quality tests",
+    "timestamps": "ISO-8601 UTC; malformed values intentionally included",
+    "order_total_formula": "subtotal_eur - discount_eur + shipping_eur; subtotal_eur = sum(item line_total_eur) before intentional item mutations",
+    "line_total_formula": "quantity * unit_price_eur - line_discount_eur, before intentional item mutations",
+    "payment_amount": "Positive for CHARGE, negative for REFUND; payment_status determines whether an event is settled",
+    "order_customer_fk": "Orders reference CRM customer_id, sometimes intentionally invalid/missing/unknown",
+    "items_orders_fk": "order_items.order_id -> orders.order_id; some intentionally unknown",
+    "items_products_fk": "order_items.product_id -> products.product_id; some intentionally unknown",
+    "payments_orders_fk": "payments.order_id -> orders.order_id; some intentionally unknown",
+    "interactions_customers_fk": "customer_interactions.customer_id -> CRM customer_id; some intentionally unknown",
+    "cdc_null_semantics": "For CDC UPDATE records, an empty new_* field means NO CHANGE. INSERT rows contain full attributes. DELETE is a tombstone.",
+    "cdc_replays": "Same event_id appears multiple times intentionally; de-duplicate by event_id before MERGE",
+    "cdc_out_of_order": "Some source_sequence=0 events arrive after sequence=1; order by source sequence/event timestamp, do not overwrite newer states"
+  },
+  "labs": {
+    "LAB04": [
+      "products",
+      "orders",
+      "order_items",
+      "payments",
+      "customer_interactions"
+    ],
+    "LAB05": [
+      "cross-source DQ and referential integrity"
+    ],
+    "LAB06": [
+      "customers_cdc",
+      "orders_cdc",
+      "payments_cdc"
+    ],
+    "LAB07": [
+      "customer360 gold tables"
+    ],
+    "LAB08": [
+      "SQL revenue and categories"
+    ],
+    "LAB09": [
+      "AI/BI Dashboards and Genie"
+    ],
+    "LAB10": [
+      "Lakeflow Jobs and monitoring"
+    ],
+    "LAB11": [
+      "architecture deep dive"
+    ],
+    "LAB12": [
+      "customer demonstration"
+    ]
+  }
+}

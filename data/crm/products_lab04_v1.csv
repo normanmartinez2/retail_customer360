@@ -1,0 +1,501 @@
+product_id,sku,product_name,category,subcategory,brand,unit_price_eur,cost_price_eur,supplier_id,active_flag,created_at,updated_at,source_system,notes
+P00001,SKU-00001,Audio Product 0001,Electronics,Audio,Brand 02,743.20,540.24,SUP-002,true,2024-07-03T00:00:00Z,2025-01-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00002,SKU-00002,Hair Care Product 0002,Beauty,Hair Care,Brand 03,457.71,228.32,SUP-003,true,2024-07-03T00:00:00Z,2025-01-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00003,SKU-00003,Wearables Product 0003,Electronics,Wearables,Brand 04,115.59,84.43,SUP-004,true,2024-07-03T00:00:00Z,2025-01-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00004,SKU-00004,Business Product 0004,Books,Business,Brand 05,420.91,225.30,SUP-005,true,2024-07-03T00:00:00Z,2025-01-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00005,SKU-00005,Clothing Product 0005,Fashion,Clothing,Brand 06,101.00,63.83,SUP-006,true,2024-07-03T00:00:00Z,2025-01-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00006,SKU-00006,Fitness Product 0006,Sports,Fitness,Brand 07,286.37,138.79,SUP-007,true,2024-07-03T00:00:00Z,2025-01-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00007,SKU-00007,Cycling Product 0007,Sports,Cycling,Brand 08,147.80,91.55,SUP-008,true,2024-07-03T00:00:00Z,2025-01-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00008,SKU-00008,Clothing Product 0008,Fashion,Clothing,Brand 09,697.16,303.64,SUP-009,true,2024-07-03T00:00:00Z,2025-01-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00009,SKU-00009,Decor Product 0009,Home,Decor,Brand 10,695.00,296.48,SUP-010,true,2024-07-03T00:00:00Z,2025-01-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00010,SKU-00010,Shoes Product 0010,Fashion,Shoes,Brand 11,508.35,304.13,SUP-011,true,2024-07-03T00:00:00Z,2025-01-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00011,SKU-00011,Fiction Product 0011,Books,Fiction,Brand 12,124.94,71.04,SUP-012,true,2024-07-03T00:00:00Z,2025-01-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00012,SKU-00012,Furniture Product 0012,Home,Furniture,Brand 13,279.02,124.56,SUP-013,true,2024-07-03T00:00:00Z,2025-01-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00013,SKU-00013,Decor Product 0013,Home,Decor,Brand 14,187.40,82.96,SUP-014,true,2024-07-03T00:00:00Z,2025-01-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00014,SKU-00014,Shoes Product 0014,Fashion,Shoes,Brand 15,24.98,14.60,SUP-015,true,2024-07-03T00:00:00Z,2025-01-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00015,SKU-00015,Wearables Product 0015,Electronics,Wearables,Brand 16,660.18,395.38,SUP-016,true,2024-07-03T00:00:00Z,2025-01-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00016,SKU-00016,Outdoor Product 0016,Sports,Outdoor,Brand 17,553.54,284.60,SUP-017,true,2024-07-03T00:00:00Z,2025-01-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00017,SKU-00017,Clothing Product 0017,Fashion,Clothing,Brand 18,647.66,284.67,SUP-018,true,2024-07-03T00:00:00Z,2025-01-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00018,SKU-00018,Fragrance Product 0018,Beauty,Fragrance,Brand 01,229.12,166.66,SUP-019,true,2024-07-03T00:00:00Z,2025-01-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00019,SKU-00019,Skin Care Product 0019,Beauty,Skin Care,Brand 02,97.34,66.48,SUP-020,true,2024-07-03T00:00:00Z,2025-01-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00020,SKU-00020,Fragrance Product 0020,Beauty,Fragrance,Brand 03,800.10,474.66,SUP-021,false,2024-07-03T00:00:00Z,2025-01-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00021,SKU-00021,Business Product 0021,,Business,Brand 04,610.71,338.71,SUP-022,true,2024-07-03T00:00:00Z,2025-01-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00022,SKU-00022,Shoes Product 0022,,Shoes,Brand 05,418.51,220.86,SUP-023,true,2024-07-03T00:00:00Z,2025-01-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00023,SKU-00023,Hair Care Product 0023,,Hair Care,Brand 06,827.88,547.72,SUP-024,true,2024-07-03T00:00:00Z,2025-01-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00024,SKU-00024,Business Product 0024,,Business,Brand 07,265.61,143.28,SUP-025,true,2024-07-03T00:00:00Z,2025-01-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00025,SKU-00025,Business Product 0025,,Business,Brand 08,6.52,3.77,SUP-001,true,2024-07-03T00:00:00Z,2025-01-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00026,SKU-00026,Clothing Product 0026,,Clothing,Brand 09,582.69,396.94,SUP-002,true,2024-07-03T00:00:00Z,2025-01-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00027,SKU-00027,Hair Care Product 0027,Beauty,Hair Care,Brand 10,-15.00,220.94,SUP-003,true,2024-07-03T00:00:00Z,2025-01-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00028,SKU-00028,Kitchen Product 0028,Home,Kitchen,Brand 11,-15.00,114.16,SUP-004,true,2024-07-03T00:00:00Z,2025-01-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00029,SKU-00029,Furniture Product 0029,Home,Furniture,Brand 12,-15.00,393.59,SUP-005,true,2024-07-03T00:00:00Z,2025-02-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00030,SKU-00030,Skin Care Product 0030,Beauty,Skin Care,Brand 13,-15.00,35.85,SUP-006,true,2024-07-03T00:00:00Z,2025-02-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00031,SKU-00031,Skin Care Product 0031,Beauty,Skin Care,Brand 14,-15.00,472.23,SUP-007,true,2024-07-03T00:00:00Z,2025-02-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00032,SKU-00032,Kitchen Product 0032,Home,Kitchen,Brand 15,not-a-number,430.39,SUP-008,true,2024-07-03T00:00:00Z,2025-02-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00033,SKU-00033,Business Product 0033,Books,Business,Brand 16,not-a-number,120.90,SUP-009,true,2024-07-03T00:00:00Z,2025-02-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00034,SKU-00034,Wearables Product 0034,Electronics,Wearables,Brand 17,not-a-number,449.74,SUP-010,true,2024-07-03T00:00:00Z,2025-02-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00035,SKU-00035,Fragrance Product 0035,Beauty,Fragrance,Brand 18,not-a-number,556.18,SUP-011,true,2024-07-03T00:00:00Z,2025-02-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00036,SKU-00036,Technology Product 0036,Books,Technology,Brand 01,not-a-number,162.96,SUP-012,true,2024-07-03T00:00:00Z,2025-02-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00037,,Clothing Product 0037,Fashion,Clothing,Brand 02,240.57,95.24,SUP-013,true,2024-07-03T00:00:00Z,2025-02-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00038,,Decor Product 0038,Home,Decor,Brand 03,292.17,149.82,SUP-014,true,2024-07-03T00:00:00Z,2025-02-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00039,,Accessories Product 0039,Electronics,Accessories,Brand 04,8.46,3.34,SUP-015,true,2024-07-03T00:00:00Z,2025-02-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00040,,Clothing Product 0040,Fashion,Clothing,Brand 05,92.12,50.37,SUP-016,false,2024-07-03T00:00:00Z,2025-02-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00041,,Decor Product 0041,Home,Decor,Brand 06,489.39,177.03,SUP-017,true,2024-07-03T00:00:00Z,2025-02-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00042,SKU-00042,Fitness Product 0042,Sports,Fitness,Brand 07,83.72,38.28,SUP-018,true,2024-07-03T00:00:00Z,2025-02-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00043,SKU-00043,Outdoor Product 0043,Sports,Outdoor,Brand 08,611.78,221.06,SUP-019,true,2024-07-03T00:00:00Z,2025-02-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00044,SKU-00044,Hair Care Product 0044,Beauty,Hair Care,Brand 09,793.81,284.88,SUP-020,true,2024-07-03T00:00:00Z,2025-02-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00045,SKU-00045,Wearables Product 0045,Electronics,Wearables,Brand 10,490.95,249.99,SUP-021,true,2024-07-03T00:00:00Z,2025-02-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00046,SKU-00046,Fiction Product 0046,Books,Fiction,Brand 11,184.76,113.35,SUP-022,true,2024-07-03T00:00:00Z,2025-02-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00047,SKU-00047,Fragrance Product 0047,Beauty,Fragrance,Brand 12,653.78,282.27,SUP-023,true,2024-07-03T00:00:00Z,2025-02-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00048,SKU-00048,Bags Product 0048,Fashion,Bags,Brand 13,29.27,11.69,SUP-024,true,2024-07-03T00:00:00Z,2025-02-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00049,SKU-00049,Audio Product 0049,Electronics,Audio,Brand 14,661.83,422.61,SUP-025,true,2024-07-03T00:00:00Z,2025-02-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00050,SKU-00050,Fitness Product 0050,Sports,Fitness,Brand 15,811.68,582.30,SUP-001,true,2024-07-03T00:00:00Z,2025-02-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00051,SKU-00051,Bags Product 0051,Fashion,Bags,Brand 16,17.74,9.83,SUP-002,true,2024-07-03T00:00:00Z,2025-02-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00052,SKU-00052,Fragrance Product 0052,Beauty,Fragrance,Brand 17,480.91,275.88,SUP-003,true,2024-07-03T00:00:00Z,2025-02-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00053,SKU-00053,Furniture Product 0053,Home,Furniture,Brand 18,464.66,197.39,SUP-004,true,2024-07-03T00:00:00Z,2025-02-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00054,SKU-00054,Furniture Product 0054,Home,Furniture,Brand 01,24.97,18.25,SUP-005,true,2024-07-03T00:00:00Z,2025-02-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00055,SKU-00055,Bags Product 0055,Fashion,Bags,Brand 02,313.29,123.79,SUP-006,true,2024-07-03T00:00:00Z,2025-02-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00056,SKU-00056,Accessories Product 0056,Electronics,Accessories,Brand 03,523.93,328.59,SUP-007,true,2024-07-03T00:00:00Z,2025-02-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00057,SKU-00057,Business Product 0057,Books,Business,Brand 04,536.71,278.09,SUP-008,true,2024-07-03T00:00:00Z,2025-03-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00058,SKU-00058,Bags Product 0058,Fashion,Bags,Brand 05,580.18,302.83,SUP-009,true,2024-07-03T00:00:00Z,2025-03-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00059,SKU-00059,Fitness Product 0059,Sports,Fitness,Brand 06,733.88,479.75,SUP-010,true,2024-07-03T00:00:00Z,2025-03-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00060,SKU-00060,Cycling Product 0060,Sports,Cycling,Brand 07,294.02,116.87,SUP-011,false,2024-07-03T00:00:00Z,2025-03-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00061,SKU-00061,Skin Care Product 0061,Beauty,Skin Care,Brand 08,839.57,402.70,SUP-012,true,2024-07-03T00:00:00Z,2025-03-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00062,SKU-00062,Decor Product 0062,Home,Decor,Brand 09,853.97,531.05,SUP-013,true,2024-07-03T00:00:00Z,2025-03-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00063,SKU-00063,Audio Product 0063,Electronics,Audio,Brand 10,383.54,278.93,SUP-014,true,2024-07-03T00:00:00Z,2025-03-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00064,SKU-00064,Business Product 0064,Books,Business,Brand 11,29.71,19.54,SUP-015,true,2024-07-03T00:00:00Z,2025-03-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00065,SKU-00065,Wearables Product 0065,Electronics,Wearables,Brand 12,463.04,228.99,SUP-016,true,2024-07-03T00:00:00Z,2025-03-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00066,SKU-00066,Accessories Product 0066,Electronics,Accessories,Brand 13,454.72,293.25,SUP-017,true,2024-07-03T00:00:00Z,2025-03-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00067,SKU-00067,Shoes Product 0067,Fashion,Shoes,Brand 14,312.01,128.25,SUP-018,true,2024-07-03T00:00:00Z,2025-03-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00068,SKU-00068,Bags Product 0068,Fashion,Bags,Brand 15,814.58,331.91,SUP-019,true,2024-07-03T00:00:00Z,2025-03-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00069,SKU-00069,Furniture Product 0069,Home,Furniture,Brand 16,476.01,183.81,SUP-020,true,2024-07-03T00:00:00Z,2025-03-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00070,SKU-00070,Fragrance Product 0070,Beauty,Fragrance,Brand 17,384.62,149.11,SUP-021,true,2024-07-03T00:00:00Z,2025-03-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00071,SKU-00071,Cycling Product 0071,Sports,Cycling,Brand 18,306.50,143.13,SUP-022,true,2024-07-03T00:00:00Z,2025-03-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00072,SKU-00072,Outdoor Product 0072,Sports,Outdoor,Brand 01,337.93,218.25,SUP-023,true,2024-07-03T00:00:00Z,2025-03-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00073,SKU-00073,Furniture Product 0073,Home,Furniture,Brand 02,882.33,565.53,SUP-024,true,2024-07-03T00:00:00Z,2025-03-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00074,SKU-00074,Kitchen Product 0074,Home,Kitchen,Brand 03,452.97,288.36,SUP-025,true,2024-07-03T00:00:00Z,2025-03-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00075,SKU-00075,Clothing Product 0075,Fashion,Clothing,Brand 04,259.78,91.87,SUP-001,true,2024-07-03T00:00:00Z,2025-03-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00076,SKU-00076,Smart Home Product 0076,Electronics,Smart Home,Brand 05,174.18,111.23,SUP-002,true,2024-07-03T00:00:00Z,2025-03-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00077,SKU-00077,Shoes Product 0077,Fashion,Shoes,Brand 06,491.40,232.81,SUP-003,true,2024-07-03T00:00:00Z,2025-03-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00078,SKU-00078,Decor Product 0078,Home,Decor,Brand 07,301.73,186.33,SUP-004,true,2024-07-03T00:00:00Z,2025-03-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00079,SKU-00079,Clothing Product 0079,Fashion,Clothing,Brand 08,662.39,370.79,SUP-005,true,2024-07-03T00:00:00Z,2025-03-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00080,SKU-00080,Decor Product 0080,Home,Decor,Brand 09,192.29,104.02,SUP-006,false,2024-07-03T00:00:00Z,2025-03-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00081,SKU-00081,Technology Product 0081,Books,Technology,Brand 10,236.61,148.06,SUP-007,true,2024-07-03T00:00:00Z,2025-03-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00082,SKU-00082,Shoes Product 0082,Fashion,Shoes,Brand 11,111.01,56.59,SUP-008,true,2024-07-03T00:00:00Z,2025-03-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00083,SKU-00083,Decor Product 0083,Home,Decor,Brand 12,381.86,153.71,SUP-009,true,2024-07-03T00:00:00Z,2025-03-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00084,SKU-00084,Shoes Product 0084,Fashion,Shoes,Brand 13,698.04,511.74,SUP-010,true,2024-07-03T00:00:00Z,2025-03-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00085,SKU-00085,Bags Product 0085,Fashion,Bags,Brand 14,652.85,297.23,SUP-011,true,2024-07-03T00:00:00Z,2025-03-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00086,SKU-00086,Furniture Product 0086,Home,Furniture,Brand 15,897.80,608.96,SUP-012,true,2024-07-03T00:00:00Z,2025-03-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00087,SKU-00087,Outdoor Product 0087,Sports,Outdoor,Brand 16,685.21,408.67,SUP-013,true,2024-07-03T00:00:00Z,2025-03-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00088,SKU-00088,Hair Care Product 0088,Beauty,Hair Care,Brand 17,562.83,255.31,SUP-014,true,2024-07-03T00:00:00Z,2025-04-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00089,SKU-00089,Bags Product 0089,Fashion,Bags,Brand 18,148.81,73.72,SUP-015,true,2024-07-03T00:00:00Z,2025-04-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00090,SKU-00090,Fitness Product 0090,Sports,Fitness,Brand 01,819.06,361.57,SUP-016,true,2024-07-03T00:00:00Z,2025-04-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00091,SKU-00091,Business Product 0091,Books,Business,Brand 02,866.68,552.37,SUP-017,true,2024-07-03T00:00:00Z,2025-04-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00092,SKU-00092,Outdoor Product 0092,Sports,Outdoor,Brand 03,439.21,211.55,SUP-018,true,2024-07-03T00:00:00Z,2025-04-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00093,SKU-00093,Wearables Product 0093,Electronics,Wearables,Brand 04,531.22,388.89,SUP-019,true,2024-07-03T00:00:00Z,2025-04-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00094,SKU-00094,Technology Product 0094,Books,Technology,Brand 05,344.55,155.92,SUP-020,true,2024-07-03T00:00:00Z,2025-04-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00095,SKU-00095,Bags Product 0095,Fashion,Bags,Brand 06,465.55,284.22,SUP-021,true,2024-07-03T00:00:00Z,2025-04-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00096,SKU-00096,Fitness Product 0096,Sports,Fitness,Brand 07,389.22,246.13,SUP-022,true,2024-07-03T00:00:00Z,2025-04-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00097,SKU-00097,Fitness Product 0097,Sports,Fitness,Brand 08,680.84,482.57,SUP-023,true,2024-07-03T00:00:00Z,2025-04-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00098,SKU-00098,Wearables Product 0098,Electronics,Wearables,Brand 09,647.70,262.90,SUP-024,true,2024-07-03T00:00:00Z,2025-04-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00099,SKU-00099,Cycling Product 0099,Sports,Cycling,Brand 10,463.14,228.73,SUP-025,true,2024-07-03T00:00:00Z,2025-04-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00100,SKU-00100,Accessories Product 0100,Electronics,Accessories,Brand 11,628.46,276.71,SUP-001,false,2024-07-03T00:00:00Z,2025-04-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00101,SKU-00101,Fragrance Product 0101,Beauty,Fragrance,Brand 12,89.86,35.80,SUP-002,true,2024-07-03T00:00:00Z,2025-04-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00102,SKU-00102,Cycling Product 0102,Sports,Cycling,Brand 13,717.25,439.36,SUP-003,true,2024-07-03T00:00:00Z,2025-04-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00103,SKU-00103,Hair Care Product 0103,Beauty,Hair Care,Brand 14,345.88,145.14,SUP-004,true,2024-07-03T00:00:00Z,2025-04-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00104,SKU-00104,Fitness Product 0104,Sports,Fitness,Brand 15,185.20,91.41,SUP-005,true,2024-07-03T00:00:00Z,2025-04-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00105,SKU-00105,Clothing Product 0105,Fashion,Clothing,Brand 16,660.23,456.95,SUP-006,true,2024-07-03T00:00:00Z,2025-04-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00106,SKU-00106,Wearables Product 0106,Electronics,Wearables,Brand 17,545.61,206.86,SUP-007,true,2024-07-03T00:00:00Z,2025-04-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00107,SKU-00107,Clothing Product 0107,Fashion,Clothing,Brand 18,584.12,289.00,SUP-008,true,2024-07-03T00:00:00Z,2025-04-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00108,SKU-00108,Technology Product 0108,Books,Technology,Brand 01,39.35,26.71,SUP-009,true,2024-07-03T00:00:00Z,2025-04-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00109,SKU-00109,Bags Product 0109,Fashion,Bags,Brand 02,149.03,105.97,SUP-010,true,2024-07-03T00:00:00Z,2025-04-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00110,SKU-00110,Hair Care Product 0110,Beauty,Hair Care,Brand 03,79.74,38.59,SUP-011,true,2024-07-03T00:00:00Z,2025-04-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00111,SKU-00111,Fiction Product 0111,Books,Fiction,Brand 04,690.25,364.96,SUP-012,true,2024-07-03T00:00:00Z,2025-04-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00112,SKU-00112,Cycling Product 0112,Sports,Cycling,Brand 05,87.42,51.39,SUP-013,true,2024-07-03T00:00:00Z,2025-04-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00113,SKU-00113,Decor Product 0113,Home,Decor,Brand 06,230.74,121.92,SUP-014,true,2024-07-03T00:00:00Z,2025-04-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00114,SKU-00114,Smart Home Product 0114,Electronics,Smart Home,Brand 07,696.24,339.22,SUP-015,true,2024-07-03T00:00:00Z,2025-04-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00115,SKU-00115,Shoes Product 0115,Fashion,Shoes,Brand 08,598.37,413.40,SUP-016,true,2024-07-03T00:00:00Z,2025-04-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00116,SKU-00116,Accessories Product 0116,Electronics,Accessories,Brand 09,33.53,15.42,SUP-017,true,2024-07-03T00:00:00Z,2025-04-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00117,SKU-00117,Clothing Product 0117,Fashion,Clothing,Brand 10,759.41,486.07,SUP-018,true,2024-07-03T00:00:00Z,2025-04-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00118,SKU-00118,Accessories Product 0118,Electronics,Accessories,Brand 11,423.64,250.19,SUP-019,true,2024-07-03T00:00:00Z,2025-05-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00119,SKU-00119,Furniture Product 0119,Home,Furniture,Brand 12,399.44,231.30,SUP-020,true,2024-07-03T00:00:00Z,2025-05-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00120,SKU-00120,Skin Care Product 0120,Beauty,Skin Care,Brand 13,529.24,334.89,SUP-021,false,2024-07-03T00:00:00Z,2025-05-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00121,SKU-00121,Wearables Product 0121,Electronics,Wearables,Brand 14,175.47,67.52,SUP-022,true,2024-07-03T00:00:00Z,2025-05-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00122,SKU-00122,Kitchen Product 0122,Home,Kitchen,Brand 15,449.71,249.46,SUP-023,true,2024-07-03T00:00:00Z,2025-05-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00123,SKU-00123,Furniture Product 0123,Home,Furniture,Brand 16,646.90,328.16,SUP-024,true,2024-07-03T00:00:00Z,2025-05-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00124,SKU-00124,Audio Product 0124,Electronics,Audio,Brand 17,603.57,398.60,SUP-025,true,2024-07-03T00:00:00Z,2025-05-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00125,SKU-00125,Decor Product 0125,Home,Decor,Brand 18,81.99,48.95,SUP-001,true,2024-07-03T00:00:00Z,2025-05-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00126,SKU-00126,Shoes Product 0126,Fashion,Shoes,Brand 01,176.97,112.31,SUP-002,true,2024-07-03T00:00:00Z,2025-05-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00127,SKU-00127,Smart Home Product 0127,Electronics,Smart Home,Brand 02,617.72,286.19,SUP-003,true,2024-07-03T00:00:00Z,2025-05-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00128,SKU-00128,Business Product 0128,Books,Business,Brand 03,878.41,309.50,SUP-004,true,2024-07-03T00:00:00Z,2025-05-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00129,SKU-00129,Smart Home Product 0129,Electronics,Smart Home,Brand 04,669.22,420.47,SUP-005,true,2024-07-03T00:00:00Z,2025-05-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00130,SKU-00130,Outdoor Product 0130,Sports,Outdoor,Brand 05,551.29,394.02,SUP-006,true,2024-07-03T00:00:00Z,2025-05-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00131,SKU-00131,Fiction Product 0131,Books,Fiction,Brand 06,65.21,40.86,SUP-007,true,2024-07-03T00:00:00Z,2025-05-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00132,SKU-00132,Furniture Product 0132,Home,Furniture,Brand 07,544.39,247.64,SUP-008,true,2024-07-03T00:00:00Z,2025-05-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00133,SKU-00133,Technology Product 0133,Books,Technology,Brand 08,615.62,238.75,SUP-009,true,2024-07-03T00:00:00Z,2025-05-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00134,SKU-00134,Technology Product 0134,Books,Technology,Brand 09,170.69,118.32,SUP-010,true,2024-07-03T00:00:00Z,2025-05-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00135,SKU-00135,Wearables Product 0135,Electronics,Wearables,Brand 10,494.72,272.79,SUP-011,true,2024-07-03T00:00:00Z,2025-05-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00136,SKU-00136,Fiction Product 0136,Books,Fiction,Brand 11,753.42,482.13,SUP-012,true,2024-07-03T00:00:00Z,2025-05-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00137,SKU-00137,Bags Product 0137,Fashion,Bags,Brand 12,557.23,347.15,SUP-013,true,2024-07-03T00:00:00Z,2025-05-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00138,SKU-00138,Skin Care Product 0138,Beauty,Skin Care,Brand 13,368.41,138.35,SUP-014,true,2024-07-03T00:00:00Z,2025-05-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00139,SKU-00139,Kitchen Product 0139,Home,Kitchen,Brand 14,744.75,357.35,SUP-015,true,2024-07-03T00:00:00Z,2025-05-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00140,SKU-00140,Kitchen Product 0140,Home,Kitchen,Brand 15,103.69,49.03,SUP-016,false,2024-07-03T00:00:00Z,2025-05-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00141,SKU-00141,Cycling Product 0141,Sports,Cycling,Brand 16,524.48,325.15,SUP-017,true,2024-07-03T00:00:00Z,2025-05-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00142,SKU-00142,Technology Product 0142,Books,Technology,Brand 17,16.92,7.21,SUP-018,true,2024-07-03T00:00:00Z,2025-05-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00143,SKU-00143,Business Product 0143,Books,Business,Brand 18,771.40,485.64,SUP-019,true,2024-07-03T00:00:00Z,2025-05-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00144,SKU-00144,Fiction Product 0144,Books,Fiction,Brand 01,842.57,418.75,SUP-020,true,2024-07-03T00:00:00Z,2025-05-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00145,SKU-00145,Cycling Product 0145,Sports,Cycling,Brand 02,700.73,356.19,SUP-021,true,2024-07-03T00:00:00Z,2025-05-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00146,SKU-00146,Accessories Product 0146,Electronics,Accessories,Brand 03,590.35,355.01,SUP-022,true,2024-07-03T00:00:00Z,2025-05-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00147,SKU-00147,Decor Product 0147,Home,Decor,Brand 04,322.02,183.12,SUP-023,true,2024-07-03T00:00:00Z,2025-05-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00148,SKU-00148,Wearables Product 0148,Electronics,Wearables,Brand 05,113.84,42.40,SUP-024,true,2024-07-03T00:00:00Z,2025-05-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00149,SKU-00149,Fragrance Product 0149,Beauty,Fragrance,Brand 06,206.94,125.57,SUP-025,true,2024-07-03T00:00:00Z,2025-06-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00150,SKU-00150,Outdoor Product 0150,Sports,Outdoor,Brand 07,646.63,398.74,SUP-001,true,2024-07-03T00:00:00Z,2025-06-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00151,SKU-00151,Clothing Product 0151,Fashion,Clothing,Brand 08,432.29,274.31,SUP-002,true,2024-07-03T00:00:00Z,2025-06-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00152,SKU-00152,Fiction Product 0152,Books,Fiction,Brand 09,200.82,105.22,SUP-003,true,2024-07-03T00:00:00Z,2025-06-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00153,SKU-00153,Clothing Product 0153,Fashion,Clothing,Brand 10,73.62,52.45,SUP-004,true,2024-07-03T00:00:00Z,2025-06-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00154,SKU-00154,Fitness Product 0154,Sports,Fitness,Brand 11,781.81,570.66,SUP-005,true,2024-07-03T00:00:00Z,2025-06-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00155,SKU-00155,Kitchen Product 0155,Home,Kitchen,Brand 12,584.10,338.56,SUP-006,true,2024-07-03T00:00:00Z,2025-06-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00156,SKU-00156,Outdoor Product 0156,Sports,Outdoor,Brand 13,94.40,59.73,SUP-007,true,2024-07-03T00:00:00Z,2025-06-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00157,SKU-00157,Business Product 0157,Books,Business,Brand 14,238.17,136.43,SUP-008,true,2024-07-03T00:00:00Z,2025-06-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00158,SKU-00158,Kitchen Product 0158,Home,Kitchen,Brand 15,109.17,65.21,SUP-009,true,2024-07-03T00:00:00Z,2025-06-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00159,SKU-00159,Kitchen Product 0159,Home,Kitchen,Brand 16,729.35,302.39,SUP-010,true,2024-07-03T00:00:00Z,2025-06-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00160,SKU-00160,Kitchen Product 0160,Home,Kitchen,Brand 17,355.86,224.07,SUP-011,false,2024-07-03T00:00:00Z,2025-06-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00161,SKU-00161,Cycling Product 0161,Sports,Cycling,Brand 18,716.41,421.30,SUP-012,true,2024-07-03T00:00:00Z,2025-06-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00162,SKU-00162,Decor Product 0162,Home,Decor,Brand 01,447.51,268.55,SUP-013,true,2024-07-03T00:00:00Z,2025-06-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00163,SKU-00163,Clothing Product 0163,Fashion,Clothing,Brand 02,788.10,303.94,SUP-014,true,2024-07-03T00:00:00Z,2025-06-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00164,SKU-00164,Clothing Product 0164,Fashion,Clothing,Brand 03,790.48,333.65,SUP-015,true,2024-07-03T00:00:00Z,2025-06-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00165,SKU-00165,Fitness Product 0165,Sports,Fitness,Brand 04,277.80,137.30,SUP-016,true,2024-07-03T00:00:00Z,2025-06-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00166,SKU-00166,Furniture Product 0166,Home,Furniture,Brand 05,353.03,224.29,SUP-017,true,2024-07-03T00:00:00Z,2025-06-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00167,SKU-00167,Bags Product 0167,Fashion,Bags,Brand 06,749.78,280.17,SUP-018,true,2024-07-03T00:00:00Z,2025-06-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00168,SKU-00168,Bags Product 0168,Fashion,Bags,Brand 07,429.19,280.48,SUP-019,true,2024-07-03T00:00:00Z,2025-06-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00169,SKU-00169,Fitness Product 0169,Sports,Fitness,Brand 08,124.31,62.39,SUP-020,true,2024-07-03T00:00:00Z,2025-06-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00170,SKU-00170,Business Product 0170,Books,Business,Brand 09,100.38,45.05,SUP-021,true,2024-07-03T00:00:00Z,2025-06-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00171,SKU-00171,Technology Product 0171,Books,Technology,Brand 10,478.00,188.39,SUP-022,true,2024-07-03T00:00:00Z,2025-06-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00172,SKU-00172,Fiction Product 0172,Books,Fiction,Brand 11,168.54,123.19,SUP-023,true,2024-07-03T00:00:00Z,2025-06-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00173,SKU-00173,Accessories Product 0173,Electronics,Accessories,Brand 12,390.79,202.33,SUP-024,true,2024-07-03T00:00:00Z,2025-06-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00174,SKU-00174,Fitness Product 0174,Sports,Fitness,Brand 13,86.66,31.92,SUP-025,true,2024-07-03T00:00:00Z,2025-06-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00175,SKU-00175,Cycling Product 0175,Sports,Cycling,Brand 14,755.50,552.85,SUP-001,true,2024-07-03T00:00:00Z,2025-06-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00176,SKU-00176,Decor Product 0176,Home,Decor,Brand 15,808.07,554.34,SUP-002,true,2024-07-03T00:00:00Z,2025-06-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00177,SKU-00177,Wearables Product 0177,Electronics,Wearables,Brand 16,158.72,107.40,SUP-003,true,2024-07-03T00:00:00Z,2025-06-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00178,SKU-00178,Business Product 0178,Books,Business,Brand 17,880.98,389.83,SUP-004,true,2024-07-03T00:00:00Z,2025-06-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00179,SKU-00179,Skin Care Product 0179,Beauty,Skin Care,Brand 18,448.07,186.89,SUP-005,true,2024-07-03T00:00:00Z,2025-07-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00180,SKU-00180,Audio Product 0180,Electronics,Audio,Brand 01,88.09,37.21,SUP-006,false,2024-07-03T00:00:00Z,2025-07-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00181,SKU-00181,Smart Home Product 0181,Electronics,Smart Home,Brand 02,847.04,511.83,SUP-007,true,2024-07-03T00:00:00Z,2025-07-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00182,SKU-00182,Kitchen Product 0182,Home,Kitchen,Brand 03,62.66,24.22,SUP-008,true,2024-07-03T00:00:00Z,2025-07-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00183,SKU-00183,Audio Product 0183,Electronics,Audio,Brand 04,896.09,535.14,SUP-009,true,2024-07-03T00:00:00Z,2025-07-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00184,SKU-00184,Fitness Product 0184,Sports,Fitness,Brand 05,385.14,281.60,SUP-010,true,2024-07-03T00:00:00Z,2025-07-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00185,SKU-00185,Skin Care Product 0185,Beauty,Skin Care,Brand 06,266.72,121.33,SUP-011,true,2024-07-03T00:00:00Z,2025-07-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00186,SKU-00186,Fitness Product 0186,Sports,Fitness,Brand 07,611.37,426.89,SUP-012,true,2024-07-03T00:00:00Z,2025-07-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00187,SKU-00187,Furniture Product 0187,Home,Furniture,Brand 08,213.76,98.57,SUP-013,true,2024-07-03T00:00:00Z,2025-07-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00188,SKU-00188,Shoes Product 0188,Fashion,Shoes,Brand 09,706.15,297.43,SUP-014,true,2024-07-03T00:00:00Z,2025-07-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00189,SKU-00189,Fiction Product 0189,Books,Fiction,Brand 10,571.08,261.78,SUP-015,true,2024-07-03T00:00:00Z,2025-07-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00190,SKU-00190,Fiction Product 0190,Books,Fiction,Brand 11,69.36,48.26,SUP-016,true,2024-07-03T00:00:00Z,2025-07-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00191,SKU-00191,Furniture Product 0191,Home,Furniture,Brand 12,783.44,542.47,SUP-017,true,2024-07-03T00:00:00Z,2025-07-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00192,SKU-00192,Bags Product 0192,Fashion,Bags,Brand 13,278.63,178.14,SUP-018,true,2024-07-03T00:00:00Z,2025-07-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00193,SKU-00193,Kitchen Product 0193,Home,Kitchen,Brand 14,609.15,245.41,SUP-019,true,2024-07-03T00:00:00Z,2025-07-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00194,SKU-00194,Furniture Product 0194,Home,Furniture,Brand 15,662.40,371.09,SUP-020,true,2024-07-03T00:00:00Z,2025-07-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00195,SKU-00195,Technology Product 0195,Books,Technology,Brand 16,616.54,397.23,SUP-021,true,2024-07-03T00:00:00Z,2025-07-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00196,SKU-00196,Outdoor Product 0196,Sports,Outdoor,Brand 17,626.85,346.44,SUP-022,true,2024-07-03T00:00:00Z,2025-07-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00197,SKU-00197,Decor Product 0197,Home,Decor,Brand 18,824.06,497.17,SUP-023,true,2024-07-03T00:00:00Z,2025-07-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00198,SKU-00198,Accessories Product 0198,Electronics,Accessories,Brand 01,601.08,215.44,SUP-024,true,2024-07-03T00:00:00Z,2025-07-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00199,SKU-00199,Fragrance Product 0199,Beauty,Fragrance,Brand 02,304.31,218.44,SUP-025,true,2024-07-03T00:00:00Z,2025-07-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00200,SKU-00200,Clothing Product 0200,Fashion,Clothing,Brand 03,247.54,126.31,SUP-001,false,2024-07-03T00:00:00Z,2025-07-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00201,SKU-00201,Audio Product 0201,Electronics,Audio,Brand 04,377.74,263.40,SUP-002,true,2024-07-03T00:00:00Z,2025-07-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00202,SKU-00202,Wearables Product 0202,Electronics,Wearables,Brand 05,198.50,111.91,SUP-003,true,2024-07-03T00:00:00Z,2025-07-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00203,SKU-00203,Smart Home Product 0203,Electronics,Smart Home,Brand 06,136.37,64.69,SUP-004,true,2024-07-03T00:00:00Z,2025-07-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00204,SKU-00204,Cycling Product 0204,Sports,Cycling,Brand 07,97.02,66.31,SUP-005,true,2024-07-03T00:00:00Z,2025-07-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00205,SKU-00205,Business Product 0205,Books,Business,Brand 08,838.06,518.89,SUP-006,true,2024-07-03T00:00:00Z,2025-07-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00206,SKU-00206,Business Product 0206,Books,Business,Brand 09,484.39,222.13,SUP-007,true,2024-07-03T00:00:00Z,2025-07-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00207,SKU-00207,Decor Product 0207,Home,Decor,Brand 10,356.63,186.53,SUP-008,true,2024-07-03T00:00:00Z,2025-07-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00208,SKU-00208,Furniture Product 0208,Home,Furniture,Brand 11,136.24,51.30,SUP-009,true,2024-07-03T00:00:00Z,2025-07-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00209,SKU-00209,Hair Care Product 0209,Beauty,Hair Care,Brand 12,342.91,195.08,SUP-010,true,2024-07-03T00:00:00Z,2025-07-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00210,SKU-00210,Kitchen Product 0210,Home,Kitchen,Brand 13,889.72,635.43,SUP-011,true,2024-07-03T00:00:00Z,2025-08-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00211,SKU-00211,Decor Product 0211,Home,Decor,Brand 14,105.94,57.35,SUP-012,true,2024-07-03T00:00:00Z,2025-08-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00212,SKU-00212,Outdoor Product 0212,Sports,Outdoor,Brand 15,49.20,24.72,SUP-013,true,2024-07-03T00:00:00Z,2025-08-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00213,SKU-00213,Cycling Product 0213,Sports,Cycling,Brand 16,622.72,405.88,SUP-014,true,2024-07-03T00:00:00Z,2025-08-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00214,SKU-00214,Kitchen Product 0214,Home,Kitchen,Brand 17,37.68,18.34,SUP-015,true,2024-07-03T00:00:00Z,2025-08-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00215,SKU-00215,Kitchen Product 0215,Home,Kitchen,Brand 18,686.00,303.86,SUP-016,true,2024-07-03T00:00:00Z,2025-08-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00216,SKU-00216,Shoes Product 0216,Fashion,Shoes,Brand 01,674.21,239.97,SUP-017,true,2024-07-03T00:00:00Z,2025-08-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00217,SKU-00217,Fiction Product 0217,Books,Fiction,Brand 02,595.81,411.90,SUP-018,true,2024-07-03T00:00:00Z,2025-08-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00218,SKU-00218,Hair Care Product 0218,Beauty,Hair Care,Brand 03,406.55,208.51,SUP-019,true,2024-07-03T00:00:00Z,2025-08-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00219,SKU-00219,Kitchen Product 0219,Home,Kitchen,Brand 04,312.17,151.70,SUP-020,true,2024-07-03T00:00:00Z,2025-08-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00220,SKU-00220,Business Product 0220,Books,Business,Brand 05,201.41,130.27,SUP-021,false,2024-07-03T00:00:00Z,2025-08-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00221,SKU-00221,Fragrance Product 0221,Beauty,Fragrance,Brand 06,685.45,280.45,SUP-022,true,2024-07-03T00:00:00Z,2025-08-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00222,SKU-00222,Audio Product 0222,Electronics,Audio,Brand 07,406.90,174.93,SUP-023,true,2024-07-03T00:00:00Z,2025-08-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00223,SKU-00223,Kitchen Product 0223,Home,Kitchen,Brand 08,138.99,82.92,SUP-024,true,2024-07-03T00:00:00Z,2025-08-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00224,SKU-00224,Kitchen Product 0224,Home,Kitchen,Brand 09,498.77,239.63,SUP-025,true,2024-07-03T00:00:00Z,2025-08-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00225,SKU-00225,Business Product 0225,Books,Business,Brand 10,874.96,396.34,SUP-001,true,2024-07-03T00:00:00Z,2025-08-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00226,SKU-00226,Outdoor Product 0226,Sports,Outdoor,Brand 11,186.49,67.06,SUP-002,true,2024-07-03T00:00:00Z,2025-08-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00227,SKU-00227,Fragrance Product 0227,Beauty,Fragrance,Brand 12,898.71,658.00,SUP-003,true,2024-07-03T00:00:00Z,2025-08-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00228,SKU-00228,Furniture Product 0228,Home,Furniture,Brand 13,416.99,304.03,SUP-004,true,2024-07-03T00:00:00Z,2025-08-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00229,SKU-00229,Fragrance Product 0229,Beauty,Fragrance,Brand 14,325.60,170.03,SUP-005,true,2024-07-03T00:00:00Z,2025-08-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00230,SKU-00230,Fiction Product 0230,Books,Fiction,Brand 15,721.33,362.47,SUP-006,true,2024-07-03T00:00:00Z,2025-08-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00231,SKU-00231,Smart Home Product 0231,Electronics,Smart Home,Brand 16,727.53,292.80,SUP-007,true,2024-07-03T00:00:00Z,2025-08-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00232,SKU-00232,Audio Product 0232,Electronics,Audio,Brand 17,262.25,175.97,SUP-008,true,2024-07-03T00:00:00Z,2025-08-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00233,SKU-00233,Cycling Product 0233,Sports,Cycling,Brand 18,485.68,339.47,SUP-009,true,2024-07-03T00:00:00Z,2025-08-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00234,SKU-00234,Hair Care Product 0234,Beauty,Hair Care,Brand 01,557.25,222.76,SUP-010,true,2024-07-03T00:00:00Z,2025-08-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00235,SKU-00235,Outdoor Product 0235,Sports,Outdoor,Brand 02,875.22,374.66,SUP-011,true,2024-07-03T00:00:00Z,2025-08-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00236,SKU-00236,Technology Product 0236,Books,Technology,Brand 03,379.53,183.11,SUP-012,true,2024-07-03T00:00:00Z,2025-08-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00237,SKU-00237,Bags Product 0237,Fashion,Bags,Brand 04,442.12,248.79,SUP-013,true,2024-07-03T00:00:00Z,2025-08-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00238,SKU-00238,Kitchen Product 0238,Home,Kitchen,Brand 05,34.66,15.85,SUP-014,true,2024-07-03T00:00:00Z,2025-08-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00239,SKU-00239,Clothing Product 0239,Fashion,Clothing,Brand 06,845.14,368.08,SUP-015,true,2024-07-03T00:00:00Z,2025-08-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00240,SKU-00240,Bags Product 0240,Fashion,Bags,Brand 07,63.79,41.80,SUP-016,false,2024-07-03T00:00:00Z,2025-08-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00241,SKU-00241,Business Product 0241,Books,Business,Brand 08,342.28,242.58,SUP-017,true,2024-07-03T00:00:00Z,2025-09-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00242,SKU-00242,Cycling Product 0242,Sports,Cycling,Brand 09,439.19,308.61,SUP-018,true,2024-07-03T00:00:00Z,2025-09-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00243,SKU-00243,Furniture Product 0243,Home,Furniture,Brand 10,398.89,188.30,SUP-019,true,2024-07-03T00:00:00Z,2025-09-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00244,SKU-00244,Shoes Product 0244,Fashion,Shoes,Brand 11,213.91,124.70,SUP-020,true,2024-07-03T00:00:00Z,2025-09-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00245,SKU-00245,Fragrance Product 0245,Beauty,Fragrance,Brand 12,810.14,569.97,SUP-021,true,2024-07-03T00:00:00Z,2025-09-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00246,SKU-00246,Furniture Product 0246,Home,Furniture,Brand 13,371.15,211.83,SUP-022,true,2024-07-03T00:00:00Z,2025-09-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00247,SKU-00247,Bags Product 0247,Fashion,Bags,Brand 14,68.86,49.75,SUP-023,true,2024-07-03T00:00:00Z,2025-09-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00248,SKU-00248,Accessories Product 0248,Electronics,Accessories,Brand 15,205.46,138.84,SUP-024,true,2024-07-03T00:00:00Z,2025-09-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00249,SKU-00249,Decor Product 0249,Home,Decor,Brand 16,538.20,367.89,SUP-025,true,2024-07-03T00:00:00Z,2025-09-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00250,SKU-00250,Kitchen Product 0250,Home,Kitchen,Brand 17,331.48,124.06,SUP-001,true,2024-07-03T00:00:00Z,2025-09-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00251,SKU-00251,Technology Product 0251,Books,Technology,Brand 18,283.66,190.87,SUP-002,true,2024-07-03T00:00:00Z,2025-09-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00252,SKU-00252,Shoes Product 0252,Fashion,Shoes,Brand 01,286.18,113.58,SUP-003,true,2024-07-03T00:00:00Z,2025-09-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00253,SKU-00253,Technology Product 0253,Books,Technology,Brand 02,199.54,130.11,SUP-004,true,2024-07-03T00:00:00Z,2025-09-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00254,SKU-00254,Clothing Product 0254,Fashion,Clothing,Brand 03,231.74,140.10,SUP-005,true,2024-07-03T00:00:00Z,2025-09-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00255,SKU-00255,Kitchen Product 0255,Home,Kitchen,Brand 04,81.43,42.38,SUP-006,true,2024-07-03T00:00:00Z,2025-09-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00256,SKU-00256,Outdoor Product 0256,Sports,Outdoor,Brand 05,465.09,236.51,SUP-007,true,2024-07-03T00:00:00Z,2025-09-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00257,SKU-00257,Skin Care Product 0257,Beauty,Skin Care,Brand 06,480.04,272.23,SUP-008,true,2024-07-03T00:00:00Z,2025-09-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00258,SKU-00258,Bags Product 0258,Fashion,Bags,Brand 07,108.18,65.25,SUP-009,true,2024-07-03T00:00:00Z,2025-09-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00259,SKU-00259,Cycling Product 0259,Sports,Cycling,Brand 08,541.67,312.39,SUP-010,true,2024-07-03T00:00:00Z,2025-09-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00260,SKU-00260,Business Product 0260,Books,Business,Brand 09,140.92,63.69,SUP-011,false,2024-07-03T00:00:00Z,2025-09-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00261,SKU-00261,Shoes Product 0261,Fashion,Shoes,Brand 10,530.29,280.98,SUP-012,true,2024-07-03T00:00:00Z,2025-09-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00262,SKU-00262,Audio Product 0262,Electronics,Audio,Brand 11,484.77,172.64,SUP-013,true,2024-07-03T00:00:00Z,2025-09-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00263,SKU-00263,Bags Product 0263,Fashion,Bags,Brand 12,891.13,322.11,SUP-014,true,2024-07-03T00:00:00Z,2025-09-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00264,SKU-00264,Decor Product 0264,Home,Decor,Brand 13,544.02,197.30,SUP-015,true,2024-07-03T00:00:00Z,2025-09-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00265,SKU-00265,Smart Home Product 0265,Electronics,Smart Home,Brand 14,591.10,363.05,SUP-016,true,2024-07-03T00:00:00Z,2025-09-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00266,SKU-00266,Fitness Product 0266,Sports,Fitness,Brand 15,689.11,259.21,SUP-017,true,2024-07-03T00:00:00Z,2025-09-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00267,SKU-00267,Business Product 0267,Books,Business,Brand 16,144.29,77.68,SUP-018,true,2024-07-03T00:00:00Z,2025-09-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00268,SKU-00268,Bags Product 0268,Fashion,Bags,Brand 17,813.67,382.62,SUP-019,true,2024-07-03T00:00:00Z,2025-09-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00269,SKU-00269,Wearables Product 0269,Electronics,Wearables,Brand 18,853.47,484.90,SUP-020,true,2024-07-03T00:00:00Z,2025-09-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00270,SKU-00270,Bags Product 0270,Fashion,Bags,Brand 01,59.41,38.86,SUP-021,true,2024-07-03T00:00:00Z,2025-09-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00271,SKU-00271,Fitness Product 0271,Sports,Fitness,Brand 02,152.12,60.55,SUP-022,true,2024-07-03T00:00:00Z,2025-10-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00272,SKU-00272,Skin Care Product 0272,Beauty,Skin Care,Brand 03,528.44,350.18,SUP-023,true,2024-07-03T00:00:00Z,2025-10-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00273,SKU-00273,Outdoor Product 0273,Sports,Outdoor,Brand 04,703.21,499.32,SUP-024,true,2024-07-03T00:00:00Z,2025-10-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00274,SKU-00274,Kitchen Product 0274,Home,Kitchen,Brand 05,667.49,257.35,SUP-025,true,2024-07-03T00:00:00Z,2025-10-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00275,SKU-00275,Fragrance Product 0275,Beauty,Fragrance,Brand 06,352.55,215.59,SUP-001,true,2024-07-03T00:00:00Z,2025-10-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00276,SKU-00276,Clothing Product 0276,Fashion,Clothing,Brand 07,876.53,547.53,SUP-002,true,2024-07-03T00:00:00Z,2025-10-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00277,SKU-00277,Fitness Product 0277,Sports,Fitness,Brand 08,182.27,80.59,SUP-003,true,2024-07-03T00:00:00Z,2025-10-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00278,SKU-00278,Fiction Product 0278,Books,Fiction,Brand 09,838.11,549.78,SUP-004,true,2024-07-03T00:00:00Z,2025-10-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00279,SKU-00279,Audio Product 0279,Electronics,Audio,Brand 10,799.42,336.80,SUP-005,true,2024-07-03T00:00:00Z,2025-10-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00280,SKU-00280,Skin Care Product 0280,Beauty,Skin Care,Brand 11,208.28,128.31,SUP-006,false,2024-07-03T00:00:00Z,2025-10-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00281,SKU-00281,Accessories Product 0281,Electronics,Accessories,Brand 12,243.48,179.22,SUP-007,true,2024-07-03T00:00:00Z,2025-10-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00282,SKU-00282,Bags Product 0282,Fashion,Bags,Brand 13,475.94,186.67,SUP-008,true,2024-07-03T00:00:00Z,2025-10-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00283,SKU-00283,Fragrance Product 0283,Beauty,Fragrance,Brand 14,530.69,245.22,SUP-009,true,2024-07-03T00:00:00Z,2025-10-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00284,SKU-00284,Hair Care Product 0284,Beauty,Hair Care,Brand 15,244.89,176.28,SUP-010,true,2024-07-03T00:00:00Z,2025-10-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00285,SKU-00285,Fiction Product 0285,Books,Fiction,Brand 16,815.74,289.16,SUP-011,true,2024-07-03T00:00:00Z,2025-10-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00286,SKU-00286,Hair Care Product 0286,Beauty,Hair Care,Brand 17,146.15,105.63,SUP-012,true,2024-07-03T00:00:00Z,2025-10-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00287,SKU-00287,Fragrance Product 0287,Beauty,Fragrance,Brand 18,263.32,106.38,SUP-013,true,2024-07-03T00:00:00Z,2025-10-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00288,SKU-00288,Technology Product 0288,Books,Technology,Brand 01,19.24,12.72,SUP-014,true,2024-07-03T00:00:00Z,2025-10-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00289,SKU-00289,Hair Care Product 0289,Beauty,Hair Care,Brand 02,169.73,88.08,SUP-015,true,2024-07-03T00:00:00Z,2025-10-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00290,SKU-00290,Fragrance Product 0290,Beauty,Fragrance,Brand 03,511.80,213.76,SUP-016,true,2024-07-03T00:00:00Z,2025-10-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00291,SKU-00291,Fragrance Product 0291,Beauty,Fragrance,Brand 04,48.05,24.28,SUP-017,true,2024-07-03T00:00:00Z,2025-10-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00292,SKU-00292,Furniture Product 0292,Home,Furniture,Brand 05,605.98,442.74,SUP-018,true,2024-07-03T00:00:00Z,2025-10-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00293,SKU-00293,Audio Product 0293,Electronics,Audio,Brand 06,58.75,38.54,SUP-019,true,2024-07-03T00:00:00Z,2025-10-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00294,SKU-00294,Hair Care Product 0294,Beauty,Hair Care,Brand 07,466.65,317.73,SUP-020,true,2024-07-03T00:00:00Z,2025-10-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00295,SKU-00295,Business Product 0295,Books,Business,Brand 08,667.06,248.24,SUP-021,true,2024-07-03T00:00:00Z,2025-10-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00296,SKU-00296,Fragrance Product 0296,Beauty,Fragrance,Brand 09,234.21,104.73,SUP-022,true,2024-07-03T00:00:00Z,2025-10-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00297,SKU-00297,Wearables Product 0297,Electronics,Wearables,Brand 10,605.17,233.80,SUP-023,true,2024-07-03T00:00:00Z,2025-10-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00298,SKU-00298,Furniture Product 0298,Home,Furniture,Brand 11,148.07,106.50,SUP-024,true,2024-07-03T00:00:00Z,2025-10-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00299,SKU-00299,Fitness Product 0299,Sports,Fitness,Brand 12,764.58,400.36,SUP-025,true,2024-07-03T00:00:00Z,2025-10-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00300,SKU-00300,Shoes Product 0300,Fashion,Shoes,Brand 13,171.17,65.31,SUP-001,false,2024-07-03T00:00:00Z,2025-10-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00301,SKU-00301,Fragrance Product 0301,Beauty,Fragrance,Brand 14,206.85,74.01,SUP-002,true,2024-07-03T00:00:00Z,2025-10-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00302,SKU-00302,Technology Product 0302,Books,Technology,Brand 15,416.00,267.33,SUP-003,true,2024-07-03T00:00:00Z,2025-11-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00303,SKU-00303,Outdoor Product 0303,Sports,Outdoor,Brand 16,770.21,399.12,SUP-004,true,2024-07-03T00:00:00Z,2025-11-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00304,SKU-00304,Audio Product 0304,Electronics,Audio,Brand 17,224.50,101.94,SUP-005,true,2024-07-03T00:00:00Z,2025-11-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00305,SKU-00305,Decor Product 0305,Home,Decor,Brand 18,893.19,526.12,SUP-006,true,2024-07-03T00:00:00Z,2025-11-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00306,SKU-00306,Furniture Product 0306,Home,Furniture,Brand 01,643.28,405.73,SUP-007,true,2024-07-03T00:00:00Z,2025-11-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00307,SKU-00307,Outdoor Product 0307,Sports,Outdoor,Brand 02,141.21,51.31,SUP-008,true,2024-07-03T00:00:00Z,2025-11-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00308,SKU-00308,Shoes Product 0308,Fashion,Shoes,Brand 03,159.54,110.28,SUP-009,true,2024-07-03T00:00:00Z,2025-11-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00309,SKU-00309,Fiction Product 0309,Books,Fiction,Brand 04,542.00,398.81,SUP-010,true,2024-07-03T00:00:00Z,2025-11-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00310,SKU-00310,Technology Product 0310,Books,Technology,Brand 05,631.60,383.35,SUP-011,true,2024-07-03T00:00:00Z,2025-11-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00311,SKU-00311,Business Product 0311,Books,Business,Brand 06,131.32,75.06,SUP-012,true,2024-07-03T00:00:00Z,2025-11-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00312,SKU-00312,Kitchen Product 0312,Home,Kitchen,Brand 07,11.96,6.67,SUP-013,true,2024-07-03T00:00:00Z,2025-11-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00313,SKU-00313,Outdoor Product 0313,Sports,Outdoor,Brand 08,597.18,251.96,SUP-014,true,2024-07-03T00:00:00Z,2025-11-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00314,SKU-00314,Smart Home Product 0314,Electronics,Smart Home,Brand 09,183.90,79.96,SUP-015,true,2024-07-03T00:00:00Z,2025-11-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00315,SKU-00315,Fiction Product 0315,Books,Fiction,Brand 10,687.58,347.34,SUP-016,true,2024-07-03T00:00:00Z,2025-11-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00316,SKU-00316,Decor Product 0316,Home,Decor,Brand 11,833.69,341.49,SUP-017,true,2024-07-03T00:00:00Z,2025-11-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00317,SKU-00317,Wearables Product 0317,Electronics,Wearables,Brand 12,855.37,459.28,SUP-018,true,2024-07-03T00:00:00Z,2025-11-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00318,SKU-00318,Outdoor Product 0318,Sports,Outdoor,Brand 13,203.45,104.44,SUP-019,true,2024-07-03T00:00:00Z,2025-11-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00319,SKU-00319,Smart Home Product 0319,Electronics,Smart Home,Brand 14,135.96,77.70,SUP-020,true,2024-07-03T00:00:00Z,2025-11-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00320,SKU-00320,Outdoor Product 0320,Sports,Outdoor,Brand 15,229.43,152.64,SUP-021,false,2024-07-03T00:00:00Z,2025-11-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00321,SKU-00321,Business Product 0321,Books,Business,Brand 16,572.97,363.79,SUP-022,true,2024-07-03T00:00:00Z,2025-11-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00322,SKU-00322,Skin Care Product 0322,Beauty,Skin Care,Brand 17,473.09,200.49,SUP-023,true,2024-07-03T00:00:00Z,2025-11-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00323,SKU-00323,Outdoor Product 0323,Sports,Outdoor,Brand 18,660.07,457.31,SUP-024,true,2024-07-03T00:00:00Z,2025-11-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00324,SKU-00324,Shoes Product 0324,Fashion,Shoes,Brand 01,311.73,144.34,SUP-025,true,2024-07-03T00:00:00Z,2025-11-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00325,SKU-00325,Outdoor Product 0325,Sports,Outdoor,Brand 02,121.77,61.90,SUP-001,true,2024-07-03T00:00:00Z,2025-11-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00326,SKU-00326,Skin Care Product 0326,Beauty,Skin Care,Brand 03,745.38,425.54,SUP-002,true,2024-07-03T00:00:00Z,2025-11-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00327,SKU-00327,Furniture Product 0327,Home,Furniture,Brand 04,259.77,141.42,SUP-003,true,2024-07-03T00:00:00Z,2025-11-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00328,SKU-00328,Cycling Product 0328,Sports,Cycling,Brand 05,295.96,111.63,SUP-004,true,2024-07-03T00:00:00Z,2025-11-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00329,SKU-00329,Fragrance Product 0329,Beauty,Fragrance,Brand 06,24.37,12.56,SUP-005,true,2024-07-03T00:00:00Z,2025-11-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00330,SKU-00330,Hair Care Product 0330,Beauty,Hair Care,Brand 07,206.45,122.83,SUP-006,true,2024-07-03T00:00:00Z,2025-11-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00331,SKU-00331,Business Product 0331,Books,Business,Brand 08,818.38,343.58,SUP-007,true,2024-07-03T00:00:00Z,2025-11-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00332,SKU-00332,Outdoor Product 0332,Sports,Outdoor,Brand 09,349.04,186.57,SUP-008,true,2024-07-03T00:00:00Z,2025-12-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00333,SKU-00333,Hair Care Product 0333,Beauty,Hair Care,Brand 10,76.60,42.85,SUP-009,true,2024-07-03T00:00:00Z,2025-12-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00334,SKU-00334,Furniture Product 0334,Home,Furniture,Brand 11,402.41,264.88,SUP-010,true,2024-07-03T00:00:00Z,2025-12-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00335,SKU-00335,Fitness Product 0335,Sports,Fitness,Brand 12,423.02,308.82,SUP-011,true,2024-07-03T00:00:00Z,2025-12-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00336,SKU-00336,Furniture Product 0336,Home,Furniture,Brand 13,513.78,230.71,SUP-012,true,2024-07-03T00:00:00Z,2025-12-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00337,SKU-00337,Kitchen Product 0337,Home,Kitchen,Brand 14,134.62,81.09,SUP-013,true,2024-07-03T00:00:00Z,2025-12-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00338,SKU-00338,Decor Product 0338,Home,Decor,Brand 15,231.17,148.58,SUP-014,true,2024-07-03T00:00:00Z,2025-12-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00339,SKU-00339,Hair Care Product 0339,Beauty,Hair Care,Brand 16,116.87,43.88,SUP-015,true,2024-07-03T00:00:00Z,2025-12-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00340,SKU-00340,Wearables Product 0340,Electronics,Wearables,Brand 17,658.42,382.87,SUP-016,false,2024-07-03T00:00:00Z,2025-12-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00341,SKU-00341,Business Product 0341,Books,Business,Brand 18,106.94,63.96,SUP-017,true,2024-07-03T00:00:00Z,2025-12-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00342,SKU-00342,Fiction Product 0342,Books,Fiction,Brand 01,131.56,50.98,SUP-018,true,2024-07-03T00:00:00Z,2025-12-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00343,SKU-00343,Cycling Product 0343,Sports,Cycling,Brand 02,120.55,49.00,SUP-019,true,2024-07-03T00:00:00Z,2025-12-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00344,SKU-00344,Smart Home Product 0344,Electronics,Smart Home,Brand 03,66.93,46.23,SUP-020,true,2024-07-03T00:00:00Z,2025-12-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00345,SKU-00345,Decor Product 0345,Home,Decor,Brand 04,659.68,332.86,SUP-021,true,2024-07-03T00:00:00Z,2025-12-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00346,SKU-00346,Shoes Product 0346,Fashion,Shoes,Brand 05,389.38,186.36,SUP-022,true,2024-07-03T00:00:00Z,2025-12-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00347,SKU-00347,Cycling Product 0347,Sports,Cycling,Brand 06,24.71,8.88,SUP-023,true,2024-07-03T00:00:00Z,2025-12-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00348,SKU-00348,Technology Product 0348,Books,Technology,Brand 07,281.99,196.57,SUP-024,true,2024-07-03T00:00:00Z,2025-12-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00349,SKU-00349,Technology Product 0349,Books,Technology,Brand 08,593.70,321.09,SUP-025,true,2024-07-03T00:00:00Z,2025-12-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00350,SKU-00350,Skin Care Product 0350,Beauty,Skin Care,Brand 09,785.01,498.57,SUP-001,true,2024-07-03T00:00:00Z,2025-12-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00351,SKU-00351,Bags Product 0351,Fashion,Bags,Brand 10,315.06,117.20,SUP-002,true,2024-07-03T00:00:00Z,2025-12-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00352,SKU-00352,Shoes Product 0352,Fashion,Shoes,Brand 11,708.95,288.20,SUP-003,true,2024-07-03T00:00:00Z,2025-12-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00353,SKU-00353,Bags Product 0353,Fashion,Bags,Brand 12,191.18,80.91,SUP-004,true,2024-07-03T00:00:00Z,2025-12-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00354,SKU-00354,Skin Care Product 0354,Beauty,Skin Care,Brand 13,233.87,160.65,SUP-005,true,2024-07-03T00:00:00Z,2025-12-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00355,SKU-00355,Fragrance Product 0355,Beauty,Fragrance,Brand 14,723.65,358.65,SUP-006,true,2024-07-03T00:00:00Z,2025-12-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00356,SKU-00356,Decor Product 0356,Home,Decor,Brand 15,841.95,365.99,SUP-007,true,2024-07-03T00:00:00Z,2025-12-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00357,SKU-00357,Outdoor Product 0357,Sports,Outdoor,Brand 16,397.50,234.87,SUP-008,true,2024-07-03T00:00:00Z,2025-12-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00358,SKU-00358,Wearables Product 0358,Electronics,Wearables,Brand 17,662.32,465.77,SUP-009,true,2024-07-03T00:00:00Z,2025-12-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00359,SKU-00359,Furniture Product 0359,Home,Furniture,Brand 18,285.52,161.09,SUP-010,true,2024-07-03T00:00:00Z,2025-12-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00360,SKU-00360,Furniture Product 0360,Home,Furniture,Brand 01,234.86,159.36,SUP-011,false,2024-07-03T00:00:00Z,2025-12-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00361,SKU-00361,Audio Product 0361,Electronics,Audio,Brand 02,370.14,272.37,SUP-012,true,2024-07-03T00:00:00Z,2025-12-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00362,SKU-00362,Skin Care Product 0362,Beauty,Skin Care,Brand 03,638.29,334.51,SUP-013,true,2024-07-03T00:00:00Z,2025-12-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00363,SKU-00363,Cycling Product 0363,Sports,Cycling,Brand 04,431.78,184.94,SUP-014,true,2024-07-03T00:00:00Z,2026-01-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00364,SKU-00364,Fiction Product 0364,Books,Fiction,Brand 05,68.20,49.75,SUP-015,true,2024-07-03T00:00:00Z,2026-01-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00365,SKU-00365,Fitness Product 0365,Sports,Fitness,Brand 06,279.71,129.96,SUP-016,true,2024-07-03T00:00:00Z,2026-01-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00366,SKU-00366,Shoes Product 0366,Fashion,Shoes,Brand 07,24.17,15.16,SUP-017,true,2024-07-03T00:00:00Z,2026-01-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00367,SKU-00367,Furniture Product 0367,Home,Furniture,Brand 08,745.34,456.73,SUP-018,true,2024-07-03T00:00:00Z,2026-01-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00368,SKU-00368,Cycling Product 0368,Sports,Cycling,Brand 09,411.41,282.09,SUP-019,true,2024-07-03T00:00:00Z,2026-01-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00369,SKU-00369,Fitness Product 0369,Sports,Fitness,Brand 10,398.95,212.92,SUP-020,true,2024-07-03T00:00:00Z,2026-01-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00370,SKU-00370,Furniture Product 0370,Home,Furniture,Brand 11,169.94,91.54,SUP-021,true,2024-07-03T00:00:00Z,2026-01-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00371,SKU-00371,Business Product 0371,Books,Business,Brand 12,773.39,296.05,SUP-022,true,2024-07-03T00:00:00Z,2026-01-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00372,SKU-00372,Fitness Product 0372,Sports,Fitness,Brand 13,688.77,484.22,SUP-023,true,2024-07-03T00:00:00Z,2026-01-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00373,SKU-00373,Wearables Product 0373,Electronics,Wearables,Brand 14,596.30,313.97,SUP-024,true,2024-07-03T00:00:00Z,2026-01-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00374,SKU-00374,Clothing Product 0374,Fashion,Clothing,Brand 15,440.15,236.57,SUP-025,true,2024-07-03T00:00:00Z,2026-01-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00375,SKU-00375,Bags Product 0375,Fashion,Bags,Brand 16,333.39,149.67,SUP-001,true,2024-07-03T00:00:00Z,2026-01-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00376,SKU-00376,Cycling Product 0376,Sports,Cycling,Brand 17,564.39,333.56,SUP-002,true,2024-07-03T00:00:00Z,2026-01-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00377,SKU-00377,Hair Care Product 0377,Beauty,Hair Care,Brand 18,351.43,166.79,SUP-003,true,2024-07-03T00:00:00Z,2026-01-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00378,SKU-00378,Business Product 0378,Books,Business,Brand 01,753.89,523.01,SUP-004,true,2024-07-03T00:00:00Z,2026-01-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00379,SKU-00379,Hair Care Product 0379,Beauty,Hair Care,Brand 02,161.90,96.04,SUP-005,true,2024-07-03T00:00:00Z,2026-01-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00380,SKU-00380,Bags Product 0380,Fashion,Bags,Brand 03,362.59,154.92,SUP-006,false,2024-07-03T00:00:00Z,2026-01-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00381,SKU-00381,Wearables Product 0381,Electronics,Wearables,Brand 04,448.46,167.56,SUP-007,true,2024-07-03T00:00:00Z,2026-01-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00382,SKU-00382,Decor Product 0382,Home,Decor,Brand 05,45.65,23.62,SUP-008,true,2024-07-03T00:00:00Z,2026-01-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00383,SKU-00383,Fiction Product 0383,Books,Fiction,Brand 06,154.92,76.37,SUP-009,true,2024-07-03T00:00:00Z,2026-01-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00384,SKU-00384,Furniture Product 0384,Home,Furniture,Brand 07,473.70,179.91,SUP-010,true,2024-07-03T00:00:00Z,2026-01-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00385,SKU-00385,Furniture Product 0385,Home,Furniture,Brand 08,287.91,173.48,SUP-011,true,2024-07-03T00:00:00Z,2026-01-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00386,SKU-00386,Clothing Product 0386,Fashion,Clothing,Brand 09,72.10,33.57,SUP-012,true,2024-07-03T00:00:00Z,2026-01-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00387,SKU-00387,Fragrance Product 0387,Beauty,Fragrance,Brand 10,803.13,534.35,SUP-013,true,2024-07-03T00:00:00Z,2026-01-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00388,SKU-00388,Bags Product 0388,Fashion,Bags,Brand 11,338.60,151.29,SUP-014,true,2024-07-03T00:00:00Z,2026-01-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00389,SKU-00389,Fragrance Product 0389,Beauty,Fragrance,Brand 12,138.08,100.02,SUP-015,true,2024-07-03T00:00:00Z,2026-01-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00390,SKU-00390,Shoes Product 0390,Fashion,Shoes,Brand 13,878.00,485.09,SUP-016,true,2024-07-03T00:00:00Z,2026-01-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00391,SKU-00391,Bags Product 0391,Fashion,Bags,Brand 14,774.42,521.04,SUP-017,true,2024-07-03T00:00:00Z,2026-01-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00392,SKU-00392,Clothing Product 0392,Fashion,Clothing,Brand 15,101.92,75.27,SUP-018,true,2024-07-03T00:00:00Z,2026-01-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00393,SKU-00393,Shoes Product 0393,Fashion,Shoes,Brand 16,242.24,115.55,SUP-019,true,2024-07-03T00:00:00Z,2026-01-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00394,SKU-00394,Furniture Product 0394,Home,Furniture,Brand 17,62.19,26.47,SUP-020,true,2024-07-03T00:00:00Z,2026-02-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00395,SKU-00395,Business Product 0395,Books,Business,Brand 18,438.61,309.30,SUP-021,true,2024-07-03T00:00:00Z,2026-02-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00396,SKU-00396,Clothing Product 0396,Fashion,Clothing,Brand 01,744.95,356.38,SUP-022,true,2024-07-03T00:00:00Z,2026-02-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00397,SKU-00397,Smart Home Product 0397,Electronics,Smart Home,Brand 02,850.64,378.62,SUP-023,true,2024-07-03T00:00:00Z,2026-02-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00398,SKU-00398,Cycling Product 0398,Sports,Cycling,Brand 03,784.00,423.42,SUP-024,true,2024-07-03T00:00:00Z,2026-02-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00399,SKU-00399,Skin Care Product 0399,Beauty,Skin Care,Brand 04,534.53,256.93,SUP-025,true,2024-07-03T00:00:00Z,2026-02-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00400,SKU-00400,Accessories Product 0400,Electronics,Accessories,Brand 05,819.51,587.87,SUP-001,false,2024-07-03T00:00:00Z,2026-02-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00401,SKU-00401,Technology Product 0401,Books,Technology,Brand 06,148.18,107.88,SUP-002,true,2024-07-03T00:00:00Z,2026-02-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00402,SKU-00402,Smart Home Product 0402,Electronics,Smart Home,Brand 07,368.66,262.50,SUP-003,true,2024-07-03T00:00:00Z,2026-02-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00403,SKU-00403,Fitness Product 0403,Sports,Fitness,Brand 08,730.12,402.51,SUP-004,true,2024-07-03T00:00:00Z,2026-02-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00404,SKU-00404,Decor Product 0404,Home,Decor,Brand 09,614.28,343.48,SUP-005,true,2024-07-03T00:00:00Z,2026-02-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00405,SKU-00405,Outdoor Product 0405,Sports,Outdoor,Brand 10,266.29,138.03,SUP-006,true,2024-07-03T00:00:00Z,2026-02-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00406,SKU-00406,Hair Care Product 0406,Beauty,Hair Care,Brand 11,227.38,118.50,SUP-007,true,2024-07-03T00:00:00Z,2026-02-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00407,SKU-00407,Shoes Product 0407,Fashion,Shoes,Brand 12,701.12,374.43,SUP-008,true,2024-07-03T00:00:00Z,2026-02-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00408,SKU-00408,Fiction Product 0408,Books,Fiction,Brand 13,807.46,344.45,SUP-009,true,2024-07-03T00:00:00Z,2026-02-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00409,SKU-00409,Accessories Product 0409,Electronics,Accessories,Brand 14,805.02,483.30,SUP-010,true,2024-07-03T00:00:00Z,2026-02-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00410,SKU-00410,Furniture Product 0410,Home,Furniture,Brand 15,478.73,352.77,SUP-011,true,2024-07-03T00:00:00Z,2026-02-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00411,SKU-00411,Furniture Product 0411,Home,Furniture,Brand 16,335.30,211.29,SUP-012,true,2024-07-03T00:00:00Z,2026-02-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00412,SKU-00412,Wearables Product 0412,Electronics,Wearables,Brand 17,264.74,159.68,SUP-013,true,2024-07-03T00:00:00Z,2026-02-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00413,SKU-00413,Furniture Product 0413,Home,Furniture,Brand 18,841.30,547.94,SUP-014,true,2024-07-03T00:00:00Z,2026-02-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00414,SKU-00414,Technology Product 0414,Books,Technology,Brand 01,515.87,212.92,SUP-015,true,2024-07-03T00:00:00Z,2026-02-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00415,SKU-00415,Decor Product 0415,Home,Decor,Brand 02,579.97,325.15,SUP-016,true,2024-07-03T00:00:00Z,2026-02-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00416,SKU-00416,Bags Product 0416,Fashion,Bags,Brand 03,413.75,182.46,SUP-017,true,2024-07-03T00:00:00Z,2026-02-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00417,SKU-00417,Hair Care Product 0417,Beauty,Hair Care,Brand 04,260.90,190.58,SUP-018,true,2024-07-03T00:00:00Z,2026-02-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00418,SKU-00418,Fiction Product 0418,Books,Fiction,Brand 05,143.16,87.66,SUP-019,true,2024-07-03T00:00:00Z,2026-02-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00419,SKU-00419,Shoes Product 0419,Fashion,Shoes,Brand 06,684.90,475.76,SUP-020,true,2024-07-03T00:00:00Z,2026-02-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00420,SKU-00420,Wearables Product 0420,Electronics,Wearables,Brand 07,492.52,249.17,SUP-021,false,2024-07-03T00:00:00Z,2026-02-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00421,SKU-00421,Smart Home Product 0421,Electronics,Smart Home,Brand 08,676.15,262.79,SUP-022,true,2024-07-03T00:00:00Z,2026-02-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00422,SKU-00422,Shoes Product 0422,Fashion,Shoes,Brand 09,570.65,207.45,SUP-023,true,2024-07-03T00:00:00Z,2026-03-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00423,SKU-00423,Cycling Product 0423,Sports,Cycling,Brand 10,850.43,560.93,SUP-024,true,2024-07-03T00:00:00Z,2026-03-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00424,SKU-00424,Business Product 0424,Books,Business,Brand 11,641.26,260.30,SUP-025,true,2024-07-03T00:00:00Z,2026-03-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00425,SKU-00425,Hair Care Product 0425,Beauty,Hair Care,Brand 12,385.65,270.93,SUP-001,true,2024-07-03T00:00:00Z,2026-03-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00426,SKU-00426,Decor Product 0426,Home,Decor,Brand 13,293.92,140.90,SUP-002,true,2024-07-03T00:00:00Z,2026-03-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00427,SKU-00427,Technology Product 0427,Books,Technology,Brand 14,505.28,204.22,SUP-003,true,2024-07-03T00:00:00Z,2026-03-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00428,SKU-00428,Business Product 0428,Books,Business,Brand 15,864.89,523.72,SUP-004,true,2024-07-03T00:00:00Z,2026-03-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00429,SKU-00429,Outdoor Product 0429,Sports,Outdoor,Brand 16,713.13,456.41,SUP-005,true,2024-07-03T00:00:00Z,2026-03-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00430,SKU-00430,Fiction Product 0430,Books,Fiction,Brand 17,264.72,140.17,SUP-006,true,2024-07-03T00:00:00Z,2026-03-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00431,SKU-00431,Technology Product 0431,Books,Technology,Brand 18,685.06,352.24,SUP-007,true,2024-07-03T00:00:00Z,2026-03-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00432,SKU-00432,Cycling Product 0432,Sports,Cycling,Brand 01,741.22,494.76,SUP-008,true,2024-07-03T00:00:00Z,2026-03-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00433,SKU-00433,Hair Care Product 0433,Beauty,Hair Care,Brand 02,805.89,415.20,SUP-009,true,2024-07-03T00:00:00Z,2026-03-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00434,SKU-00434,Kitchen Product 0434,Home,Kitchen,Brand 03,573.84,276.33,SUP-010,true,2024-07-03T00:00:00Z,2026-03-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00435,SKU-00435,Wearables Product 0435,Electronics,Wearables,Brand 04,37.25,19.98,SUP-011,true,2024-07-03T00:00:00Z,2026-03-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00436,SKU-00436,Clothing Product 0436,Fashion,Clothing,Brand 05,276.52,113.02,SUP-012,true,2024-07-03T00:00:00Z,2026-03-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00437,SKU-00437,Outdoor Product 0437,Sports,Outdoor,Brand 06,801.17,585.58,SUP-013,true,2024-07-03T00:00:00Z,2026-03-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00438,SKU-00438,Outdoor Product 0438,Sports,Outdoor,Brand 07,832.72,372.07,SUP-014,true,2024-07-03T00:00:00Z,2026-03-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00439,SKU-00439,Cycling Product 0439,Sports,Cycling,Brand 08,187.64,106.24,SUP-015,true,2024-07-03T00:00:00Z,2026-03-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00440,SKU-00440,Furniture Product 0440,Home,Furniture,Brand 09,607.58,263.20,SUP-016,false,2024-07-03T00:00:00Z,2026-03-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00441,SKU-00441,Technology Product 0441,Books,Technology,Brand 10,721.14,403.56,SUP-017,true,2024-07-03T00:00:00Z,2026-03-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00442,SKU-00442,Furniture Product 0442,Home,Furniture,Brand 11,765.77,399.18,SUP-018,true,2024-07-03T00:00:00Z,2026-03-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00443,SKU-00443,Accessories Product 0443,Electronics,Accessories,Brand 12,678.26,393.57,SUP-019,true,2024-07-03T00:00:00Z,2026-03-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00444,SKU-00444,Audio Product 0444,Electronics,Audio,Brand 13,471.06,196.75,SUP-020,true,2024-07-03T00:00:00Z,2026-03-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00445,SKU-00445,Accessories Product 0445,Electronics,Accessories,Brand 14,698.42,494.86,SUP-021,true,2024-07-03T00:00:00Z,2026-03-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00446,SKU-00446,Outdoor Product 0446,Sports,Outdoor,Brand 15,331.84,151.67,SUP-022,true,2024-07-03T00:00:00Z,2026-03-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00447,SKU-00447,Wearables Product 0447,Electronics,Wearables,Brand 16,522.29,288.04,SUP-023,true,2024-07-03T00:00:00Z,2026-03-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00448,SKU-00448,Clothing Product 0448,Fashion,Clothing,Brand 17,297.80,158.81,SUP-024,true,2024-07-03T00:00:00Z,2026-03-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00449,SKU-00449,Smart Home Product 0449,Electronics,Smart Home,Brand 18,369.10,162.44,SUP-025,true,2024-07-03T00:00:00Z,2026-03-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00450,SKU-00450,Hair Care Product 0450,Beauty,Hair Care,Brand 01,811.91,423.69,SUP-001,true,2024-07-03T00:00:00Z,2025-01-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00451,SKU-00451,Kitchen Product 0451,Home,Kitchen,Brand 02,681.92,239.13,SUP-002,true,2024-07-03T00:00:00Z,2025-01-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00452,SKU-00452,Shoes Product 0452,Fashion,Shoes,Brand 03,543.02,358.19,SUP-003,true,2024-07-03T00:00:00Z,2025-01-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00453,SKU-00453,Shoes Product 0453,Fashion,Shoes,Brand 04,331.84,216.17,SUP-004,true,2024-07-03T00:00:00Z,2025-01-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00454,SKU-00454,Shoes Product 0454,Fashion,Shoes,Brand 05,611.41,297.34,SUP-005,true,2024-07-03T00:00:00Z,2025-01-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00455,SKU-00455,Fragrance Product 0455,Beauty,Fragrance,Brand 06,665.25,394.85,SUP-006,true,2024-07-03T00:00:00Z,2025-01-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00456,SKU-00456,Audio Product 0456,Electronics,Audio,Brand 07,8.36,4.91,SUP-007,true,2024-07-03T00:00:00Z,2025-01-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00457,SKU-00457,Hair Care Product 0457,Beauty,Hair Care,Brand 08,525.41,307.31,SUP-008,true,2024-07-03T00:00:00Z,2025-01-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00458,SKU-00458,Skin Care Product 0458,Beauty,Skin Care,Brand 09,664.08,315.84,SUP-009,true,2024-07-03T00:00:00Z,2025-01-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00459,SKU-00459,Shoes Product 0459,Fashion,Shoes,Brand 10,83.05,29.14,SUP-010,true,2024-07-03T00:00:00Z,2025-01-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00460,SKU-00460,Wearables Product 0460,Electronics,Wearables,Brand 11,476.10,188.42,SUP-011,false,2024-07-03T00:00:00Z,2025-01-13T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00461,SKU-00461,Smart Home Product 0461,Electronics,Smart Home,Brand 12,108.67,57.35,SUP-012,true,2024-07-03T00:00:00Z,2025-01-14T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00462,SKU-00462,Fitness Product 0462,Sports,Fitness,Brand 13,631.12,369.32,SUP-013,true,2024-07-03T00:00:00Z,2025-01-15T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00463,SKU-00463,Bags Product 0463,Fashion,Bags,Brand 14,45.17,19.56,SUP-014,true,2024-07-03T00:00:00Z,2025-01-16T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00464,SKU-00464,Audio Product 0464,Electronics,Audio,Brand 15,482.69,171.02,SUP-015,true,2024-07-03T00:00:00Z,2025-01-17T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00465,SKU-00465,Fiction Product 0465,Books,Fiction,Brand 16,837.37,303.65,SUP-016,true,2024-07-03T00:00:00Z,2025-01-18T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00466,SKU-00466,Bags Product 0466,Fashion,Bags,Brand 17,497.88,184.87,SUP-017,true,2024-07-03T00:00:00Z,2025-01-19T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00467,SKU-00467,Fitness Product 0467,Sports,Fitness,Brand 18,515.69,305.88,SUP-018,true,2024-07-03T00:00:00Z,2025-01-20T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00468,SKU-00468,Shoes Product 0468,Fashion,Shoes,Brand 01,796.50,353.29,SUP-019,true,2024-07-03T00:00:00Z,2025-01-21T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00469,SKU-00469,Furniture Product 0469,Home,Furniture,Brand 02,848.38,451.90,SUP-020,true,2024-07-03T00:00:00Z,2025-01-22T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00470,SKU-00470,Wearables Product 0470,Electronics,Wearables,Brand 03,584.56,254.14,SUP-021,true,2024-07-03T00:00:00Z,2025-01-23T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00471,SKU-00471,Outdoor Product 0471,Sports,Outdoor,Brand 04,622.71,235.93,SUP-022,true,2024-07-03T00:00:00Z,2025-01-24T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00472,SKU-00472,Fitness Product 0472,Sports,Fitness,Brand 05,365.03,215.47,SUP-023,true,2024-07-03T00:00:00Z,2025-01-25T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00473,SKU-00473,Hair Care Product 0473,Beauty,Hair Care,Brand 06,350.82,125.62,SUP-024,true,2024-07-03T00:00:00Z,2025-01-26T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00474,SKU-00474,Business Product 0474,Books,Business,Brand 07,463.05,292.15,SUP-025,true,2024-07-03T00:00:00Z,2025-01-27T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00475,SKU-00475,Skin Care Product 0475,Beauty,Skin Care,Brand 08,717.31,368.22,SUP-001,true,2024-07-03T00:00:00Z,2025-01-28T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00476,SKU-00476,Furniture Product 0476,Home,Furniture,Brand 09,159.09,76.96,SUP-002,true,2024-07-03T00:00:00Z,2025-01-29T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00477,SKU-00477,Hair Care Product 0477,Beauty,Hair Care,Brand 10,282.78,128.18,SUP-003,true,2024-07-03T00:00:00Z,2025-01-30T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00478,SKU-00478,Outdoor Product 0478,Sports,Outdoor,Brand 11,102.56,48.79,SUP-004,true,2024-07-03T00:00:00Z,2025-01-31T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00479,SKU-00479,Kitchen Product 0479,Home,Kitchen,Brand 12,418.75,306.64,SUP-005,true,2024-07-03T00:00:00Z,2025-02-01T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00480,SKU-00480,Bags Product 0480,Fashion,Bags,Brand 13,783.85,325.75,SUP-006,false,2024-07-03T00:00:00Z,2025-02-02T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00481,SKU-00481,Fiction Product 0481,Books,Fiction,Brand 14,710.34,369.37,SUP-007,true,2024-07-03T00:00:00Z,2025-02-03T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00482,SKU-00482,Hair Care Product 0482,Beauty,Hair Care,Brand 15,869.70,578.35,SUP-008,true,2024-07-03T00:00:00Z,2025-02-04T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00483,SKU-00483,Technology Product 0483,Books,Technology,Brand 16,511.67,248.63,SUP-009,true,2024-07-03T00:00:00Z,2025-02-05T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00484,SKU-00484,Hair Care Product 0484,Beauty,Hair Care,Brand 17,713.78,284.82,SUP-010,true,2024-07-03T00:00:00Z,2025-02-06T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00485,SKU-00485,Business Product 0485,Books,Business,Brand 18,251.46,100.70,SUP-011,true,2024-07-03T00:00:00Z,2025-02-07T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00486,SKU-00486,Decor Product 0486,Home,Decor,Brand 01,106.49,63.23,SUP-012,true,2024-07-03T00:00:00Z,2025-02-08T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00487,SKU-00487,Shoes Product 0487,Fashion,Shoes,Brand 02,667.47,330.56,SUP-013,true,2024-07-03T00:00:00Z,2025-02-09T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00488,SKU-00488,Technology Product 0488,Books,Technology,Brand 03,412.92,269.51,SUP-014,true,2024-07-03T00:00:00Z,2025-02-10T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00489,SKU-00489,Fitness Product 0489,Sports,Fitness,Brand 04,112.45,66.61,SUP-015,true,2024-07-03T00:00:00Z,2025-02-11T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00490,SKU-00490,Audio Product 0490,Electronics,Audio,Brand 05,685.11,278.58,SUP-016,true,2024-07-03T00:00:00Z,2025-02-12T00:00:00Z,SAP_ERP_SIMULATED,Synthetic product catalog
+P00001,SKU-00001,Audio Product 0001,Electronics,Audio,Brand 02,745.19,540.24,SUP-002,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00002,SKU-00002,Hair Care Product 0002,Beauty,Hair Care,Brand 03,459.70,228.32,SUP-003,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00003,SKU-00003,Wearables Product 0003,Electronics,Wearables,Brand 04,117.58,84.43,SUP-004,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00004,SKU-00004,Business Product 0004,Books,Business,Brand 05,422.90,225.30,SUP-005,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00005,SKU-00005,Clothing Product 0005,Fashion,Clothing,Brand 06,102.99,63.83,SUP-006,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00006,SKU-00006,Fitness Product 0006,Sports,Fitness,Brand 07,288.36,138.79,SUP-007,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00007,SKU-00007,Cycling Product 0007,Sports,Cycling,Brand 08,149.79,91.55,SUP-008,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00008,SKU-00008,Clothing Product 0008,Fashion,Clothing,Brand 09,699.15,303.64,SUP-009,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00009,SKU-00009,Decor Product 0009,Home,Decor,Brand 10,696.99,296.48,SUP-010,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
+P00010,SKU-00010,Shoes Product 0010,Fashion,Shoes,Brand 11,510.34,304.13,SUP-011,true,2024-07-03T00:00:00Z,2026-06-01T10:00:00Z,SAP_ERP_SIMULATED,Duplicate ERP product version — later update
